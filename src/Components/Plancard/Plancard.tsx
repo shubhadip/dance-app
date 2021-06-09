@@ -1,30 +1,28 @@
 import React from "react";
-import Button from "../Button/Button";
-import './Plancard.scss';
+// import Button from "../Button/Button";
 
-const Plancard = () =>  {
-  return (
-    <div className="plancard-wrapper">
-      <div className="image-section">
-          <img src="https://i.picsum.photos/id/718/200/300.jpg?hmac=33vt_lg60EIOuc--jquKwN9epg7jFtlsroU-yn2NvLw"
-            width={"100%"} />
-      </div>
-      <div className="content">
-        <div className="instructor">
-          <p>Yoga with Gaga</p>
-          <p>50+ enrolled</p>
-        </div>
-        <div className="next-session">
-          <p>Next Session</p>
-          <p>Price: 490</p>
-        </div>
-        <div className="book-now">
-          <div>View Details</div>
-          <Button title="Book Now" />
-        </div>
-      </div>
-    </div>
-  )
-}
+const Plancard = () => {
+    return (
+        <>
+          <div className="mb-4 border border-gray-80 rounded overflow-hidden">
+            <div className="w-full bg-gray-200 h-40"></div>
+            <div className="p-2">
+              <div className="flex justify-between">
+                <span className="text-sm">Live yoga with goga</span>
+                <span className="text-sm font-medium">50+ Enrolled</span>
+              </div>
+              <div className="flex justify-between mb-4">
+                <span className="text-sm">Live yoga with goga</span>
+                <span className="text-sm font-medium text-blue-500">INR 400</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-sm underline">View Details</span>
+                <button className="text-sm text-white bg-yellow-600 px-3 py-1 rounded">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </>
+    );
+};
 
 export default Plancard;
