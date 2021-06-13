@@ -10,7 +10,6 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate :
       prod = [...prod, ...catItem.products]
     })
   }
-  
   if(selectedDate && !selectedSlot) {
     prod = prod.filter((p: any)=> {
       const dateValues = Object.keys(p.slots);
