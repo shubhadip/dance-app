@@ -33,3 +33,9 @@ code {
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
+.cat-box.selected .cat-box-img{
+  border: 2px solid black;
+}
+.cat-box.selected .cat-box-name{
+  font-weight: bold;
+}

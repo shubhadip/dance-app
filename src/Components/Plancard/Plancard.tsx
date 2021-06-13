@@ -8,7 +8,7 @@ const Plancard = (props: IPlanProps) => {
             <div className="w-full bg-gray-200 h-40"></div>
             <div className="p-2">
               <div className="flex justify-between">
-                <span className="text-sm">{props.name}</span>
+                <span className="text-sm capitalize">{props.name}</span>
                 <span className="text-sm font-medium">50+ Enrolled</span>
               </div>
               <div className="flex justify-between mb-4">
@@ -17,7 +17,7 @@ const Plancard = (props: IPlanProps) => {
               </div>
               <div className="flex justify-between">
                 <span className="text-sm underline">View Details</span>
-                <button className="text-sm text-white bg-yellow-600 px-3 py-1 rounded">Book Now</button>
+                <button className="text-sm text-white bg-yellow-600 px-2 py-0.5 rounded">Book Now</button>
               </div>
             </div>
           </div>
