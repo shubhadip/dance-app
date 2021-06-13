@@ -1,4 +1,3 @@
-import { addDays, format } from "date-fns";
 import { Slots } from "../shared/interfaces";
 
 export const MorningSlots = [5, 6, 7, 8, 9, 10, 11]
@@ -11,13 +10,4 @@ export const timeSlotMapping : { [key in Slots]: number[]} = {
   [Slots.evening]: EveningSlots
 }
 
-export const ddMMyyyy = 'dd-MM-yyyy';
-
-export const dateOptions = [
-  format(new Date(), ddMMyyyy),
-  format(addDays(new Date(), 1), ddMMyyyy),
-  format(addDays(new Date(), 2), ddMMyyyy),
-  format(addDays(new Date(), 3), ddMMyyyy),
-  format(addDays(new Date(), 4), ddMMyyyy)
-];
-
+export const yyyyMMdd = 'yyyy-MM-dd';

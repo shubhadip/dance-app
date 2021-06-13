@@ -1,4 +1,4 @@
-import { dateOptions, timeSlotMapping } from "./constants"
+import { timeSlotMapping } from "./constants"
 
 export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate : any, selectedCategory: any) => {
   let prod: any = [];
@@ -25,7 +25,6 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate :
       }
     })
   }
-  
   return prod;
 }
 
@@ -39,13 +38,22 @@ export const getAllCategories = (data: any) => {
   })
 }
 
-export const getDatesForDropDown = () => {
-  return dateOptions.map((item: any) => {
-    return {
-      value: item,
-      label: item
-    }
-  })
+export const getUniqueDateOptions = (data?: any) => {
+  let prod: any = [];
+		let slotItems: any = [];
+		data.forEach((catItem: any) => {
+      prod = [...prod, ...catItem.products]
+    });
+		prod.forEach((slotItem: any) => {
+      slotItems = [...slotItems, ...(Object.keys(slotItem.slots))]
+    });
+    const uniques = slotItems.filter((v: any, i: any, a: any) => a.indexOf(v) === i);
+    return uniques.map((item: any) => {
+      return {
+        value: item,
+        label: item
+      }
+    }).sort((a: any,b: any) => (new Date(a.value)).getTime()-(new Date(b.value)).getTime())
 }
 
 export const getSlotsForDropDown = () => {

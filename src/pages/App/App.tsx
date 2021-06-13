@@ -1,21 +1,24 @@
 import React,{ useState, useEffect } from "react";
 import format from "date-fns/format";
 import Plancard from "../../Components/Plancard/Plancard";
-import { ddMMyyyy } from "../../utils/constants";
-import { getAllCategories, getDatesForDropDown, getFilteredProducts, getSlotsForDropDown } from "../../utils/productUtils";
+import { yyyyMMdd } from "../../utils/constants";
+import { getAllCategories, getUniqueDateOptions, getFilteredProducts, getSlotsForDropDown } from "../../utils/productUtils";
 import DropDown from "../../Components/DropDown/DropDown";
 import { ICategory, IPlanProps } from "../../shared/interfaces";
 
 export const App = () => {
-	const dateOptions = getDatesForDropDown();
+	const [dateOptions, setDateOptions]: any = useState([{
+		value: format(new Date(), yyyyMMdd),
+		label: format(new Date(), yyyyMMdd)
+	}]);
 	const slotOptions = getSlotsForDropDown();
 	
 	const [products, setProducts] = useState([]);
 	const [categories, setCategories] = useState([]);
 	const [filteredProducts, setFilteredProducts] = useState([]);
 	const [selectedDate, setDate] = useState({
-		value: format(new Date(), ddMMyyyy),
-		label: format(new Date(), ddMMyyyy)
+		value: format(new Date(), yyyyMMdd),
+		label: format(new Date(), yyyyMMdd)
 	});
 	const [selectedSlot, setSlot] = useState(null);
 	const [selectedCategory, setCategory] = useState<ICategory | null>(null);
@@ -30,6 +33,8 @@ export const App = () => {
 	}, []);
 
 	useEffect(() => {
+		const temp = getUniqueDateOptions(products);
+		setDateOptions(temp);
 		const data = getFilteredProducts(products, selectedSlot, selectedDate, selectedCategory);
 		setFilteredProducts(data);
 	}, [selectedSlot, selectedDate, selectedCategory, products])
@@ -66,10 +71,10 @@ export const App = () => {
 			<div className="mb-8">
 				<div className="mb-4 text-right">
 					<div>
-						<DropDown 
+						{ dateOptions.length ? <DropDown 
 							options={dateOptions} 
 							selectedOption={selectedDate} 
-							onSelect={handleDateChange} />
+							onSelect={handleDateChange} /> : null }
 					</div>
 					<div>
 						<DropDown 
