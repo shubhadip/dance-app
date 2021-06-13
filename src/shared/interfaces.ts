@@ -28,6 +28,12 @@ type ButtonTheme =
   | "lightblue"
   | "bordered";
 
+export enum Slots {
+  morning,
+  afternoon,
+  evening
+}
+
 export interface IButtonProps {
   title?: any;
   type?: "" | "loading";
@@ -37,8 +43,25 @@ export interface IButtonProps {
   disableOnLoading?: boolean;
   member?: string;
   customValueAttr?: any;
-  // ref?: string;
   theme?: ButtonTheme;
   name?: string;
 }
 
+
+export interface IPlanProps {
+  name: string
+  image: string
+  video: string
+  price: number
+  offerPrice: number
+  tag: string
+  description?: string
+  title?: string
+  subtitle?: string
+}
+
+export interface ICategory {
+  category:string
+  name: string
+  image:string
+}
