@@ -66,58 +66,62 @@ export const App = () => {
 
     return (
         <div className="App">
-            <h4 className="pt-4 my-4 text-center font-medium">
-                Its Happening Now
-            </h4>
-            <div className="flex w-full overflow-x-auto pb-4">
-                {categories.map((citem: any) => {
-                    const isSelected = selectedCategory
-                        ? citem.category === selectedCategory?.category
-                        : false;
-                    return (
-                        <div
-                            className={[
-                                "mx-3 cat-box text-center",
-                                isSelected ? "selected" : "",
-                            ].join(" ")}
-                            key={citem.category}
-                            onClick={() => handleCategoryChange(citem)}
-                        >
-                            <div className="cat-box-img rounded-full w-14 h-14 border bg-gray-200"></div>
-                            <span className="text-xs mt-2 cat-box-name capitalize">
-                                {citem.category}
-                            </span>
-                        </div>
-                    );
-                })}
-            </div>
-            <div className="mb-8">
-                <div className="mb-4 text-right flex space-x-4">
-                    <div className="w-1/2">
-                        {dateOptions.length ? (
-                            <DropDown
-                                options={dateOptions}
-                                selectedOption={selectedDate}
-                                onSelect={handleDateChange}
-                            />
-                        ) : null}
-                    </div>
-                    <div className="w-1/2">
-                        <DropDown
-                            options={slotOptions}
-                            selectedOption={selectedSlot}
-                            onSelect={handleSlotChange}
-                            placeholder="select batch"
-                        />
-                    </div>
+            <div className="px-4">
+                <div className="mt-5 flex justify-between items-center">
+                    <div className="w-4 h-4 bg-gray-300"></div>
+                    <h4 className="font-medium text-lg">Hot Picked For you</h4>
+                    <div></div>
                 </div>
-                {filteredProducts.length
-                    ? filteredProducts.map(
-                          (item: IPlanProps, index: number) => {
-                              return <Plancard {...item} key={index} />;
-                          }
-                      )
-                    : null}
+                <div className="flex w-full overflow-x-auto pt-8">
+                    {categories.map((citem: any) => {
+                        const isSelected = selectedCategory
+                            ? citem.category === selectedCategory?.category
+                            : false;
+                        return (
+                            <div
+                                className={[
+                                    "mx-3 cat-box text-center",
+                                    isSelected ? "selected" : "",
+                                ].join(" ")}
+                                key={citem.category}
+                                onClick={() => handleCategoryChange(citem)}
+                            >
+                                <div className="cat-box-img shadow rounded-full w-14 h-14 border bg-gray-200"></div>
+                                <span className="text-xs mt-2 cat-box-name capitalize">
+                                    {citem.category}
+                                </span>
+                            </div>
+                        );
+                    })}
+                </div>
+                <div className="mb-8">
+                    <div className="my-8 text-right flex space-x-4">
+                        <div className="w-1/2">
+                            {dateOptions.length ? (
+                                <DropDown
+                                    options={dateOptions}
+                                    selectedOption={selectedDate}
+                                    onSelect={handleDateChange}
+                                />
+                            ) : null}
+                        </div>
+                        <div className="w-1/2">
+                            <DropDown
+                                options={slotOptions}
+                                selectedOption={selectedSlot}
+                                onSelect={handleSlotChange}
+                                placeholder="select batch"
+                            />
+                        </div>
+                    </div>
+                    {filteredProducts.length
+                        ? filteredProducts.map(
+                              (item: IPlanProps, index: number) => {
+                                  return <Plancard {...item} key={index} />;
+                              }
+                          )
+                        : null}
+                </div>
             </div>
         </div>
     );
