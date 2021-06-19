@@ -86,7 +86,7 @@ export const App = () => {
                                 key={citem.category}
                                 onClick={() => handleCategoryChange(citem)}
                             >
-                                <div className="cat-box-img shadow rounded-full w-14 h-14 border bg-gray-200"></div>
+                                <div className="cat-box-img shadow rounded-full w-14 h-14"></div>
                                 <span className="text-xs mt-2 cat-box-name capitalize">
                                     {citem.category}
                                 </span>
