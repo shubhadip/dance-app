@@ -34,11 +34,14 @@ const Plancard = (props: IPlanProps) => {
                             </span>
                         </div>
                         <div>
-                            <div className="text-xs opacity-60">
+                            <div className="text-xs opacity-60 text-right">
                                Fees
                             </div>
+                            <span className="text-sm mr-1">
+                            ₹ {props.offerPrice}
+                            </span>
                             <span className="text-sm">
-                                {props.price}
+                            ₹ {props.price}
                             </span>
                         </div>
                     </div>

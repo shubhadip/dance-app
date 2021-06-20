@@ -1,6 +1,6 @@
 import { timeSlotMapping } from "./constants"
 
-export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate : any, selectedCategory: any) => {
+export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate : any, selectedCategory: any, selectedSort: any) => {
   let prod: any = [];
   if(selectedCategory){
     const category = data.filter((catItem: any) => catItem.category === selectedCategory.category);
@@ -22,6 +22,15 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate :
         return value.some((item: any) => (timeSlotMapping as any)[selectedSlot.value].includes(item))
       }else{
         return false;
+      }
+    })
+  }
+  if(selectedSort){
+    prod.sort((a: any,b: any) => {
+      if(selectedSort.value === 0){
+        return a.offerPrice - b.offerPrice
+      }else{
+        return b.offerPrice - a.offerPrice
       }
     })
   }
@@ -66,5 +75,15 @@ export const getSlotsForDropDown = () => {
   },{
     value: 2,
     label: 'Evening'
+  }]
+}
+
+export const getSortOptions = () => {
+  return [{
+    value: 0,
+    label: 'Low to High'
+  },{
+    value: 1,
+    label: 'High to Low'
   }]
 }
