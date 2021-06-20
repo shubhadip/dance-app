@@ -1,3 +1,10 @@
+import leftArrow from "./../../assets/images/arrow.svg";
+import yoga from "./../../assets/images/yoga-white.svg";
+import shareIcon from "./../../assets/images/share.svg";
+import cameraIcon from "./../../assets/images/video.svg";
+import mailIcon from "./../../assets/images/mail.svg";
+import timeIcon from "./../../assets/images/time.svg";
+
 export function PlanDetails() {
     return (
         <>
@@ -7,16 +14,22 @@ export function PlanDetails() {
                     className="object-fill w-full"
                 />
                 <div className=" absolute left-0 top-0 w-full p-4 flex justify-between">
-                    <div className="w-6 h-6 bg-orange"></div>
-                    <div className="w-6 h-6 bg-orange"></div>
+                    <div className="w-8 flex justify-center items-center rounded-full h-8 bg-white">
+                        <img src={leftArrow} alt="back" />
+                    </div>
+                    <div className="w-8 flex justify-center items-center rounded-full h-8 bg-white">
+                        <img src={shareIcon} alt="share" />
+                    </div>
                 </div>
             </div>
             <div className="px-4">
                 <div className="w-full -mt-5 relative">
-                    <div className="w-10 h-10 rounded-full shadow-md bg-light-orange flex justify-center items-center"></div>
+                    <div className="w-10 h-10 rounded-full shadow-md bg-orange flex justify-center items-center">
+                        <img src={yoga} alt="yoga" />
+                    </div>
                 </div>
                 <div className="mt-2">
-                    <div className="text-xl font-medium">
+                    <div className="text-xl font-bold">
                         Live yoga with goga Live yoga with goga Live yoga with
                         goga Live
                     </div>
@@ -28,7 +41,7 @@ export function PlanDetails() {
             </div>
             <hr className="my-6" />
             <div className="px-4">
-                <div className="text-xl font-medium mb-3">
+                <div className="text-xl font-bold mb-3">
                     Live yoga with goga Live yoga
                 </div>
                 <div className="text-sm opacity-50">
@@ -39,54 +52,68 @@ export function PlanDetails() {
             </div>
             <hr className="my-6" />
             <div className="px-4">
-                <div className="text-xl font-medium mb-3">Session Flow</div>
-                <div className="ml-10 mb-2">
-                    <div className="font-medium">Yoga with goga</div>
-                    <span className="opacity-50 text-xs">10 Minutes</span>
-                </div>
-                <div className="ml-10 mb-2">
-                    <div className="font-medium">Yoga with goga</div>
-                    <span className="opacity-50 text-xs">10 Minutes</span>
-                </div>
-                <div className="ml-10 mb-2">
-                    <div className="font-medium">Yoga with goga</div>
-                    <span className="opacity-50 text-xs">10 Minutes</span>
+                <div className="text-xl font-bold mb-3">Session Flow</div>
+                <div className="relative overflow-hidden ml-2 left-bar border-l-2 border-dashed">
+                    <div className="ml-8 mb-2">
+                        <div className="font-medium">Yoga with goga</div>
+                        <span className="opacity-50 text-xs">10 Minutes</span>
+                    </div>
+                    <div className="ml-8 mb-2">
+                        <div className="font-medium">Yoga with goga</div>
+                        <span className="opacity-50 text-xs">10 Minutes</span>
+                    </div>
                 </div>
             </div>
             <hr className="my-6" />
-            <div className="px-4">
-                <div className="text-xl font-medium">Benefits</div>
-                <div className="ml-4 mt-2 opacity-50">goga Live yoga</div>
-                <div className="ml-4 mt-2 opacity-50">goga Live yoga</div>
-                <div className="ml-4 mt-2 opacity-50">goga Live yoga</div>
-                <div className="ml-4 mt-2 opacity-50">goga Live yoga</div>
+            <div className="px-4 list-disc">
+                <div className="text-xl font-bold">Benefits</div>
+                <ul className="list-outside list-disc">
+                    <li className="ml-4 mt-2 opacity-50 text-15">
+                        goga Live yoga
+                    </li>
+                    <li className="ml-4 mt-2 opacity-50 text-15">
+                        goga Live yoga
+                    </li>
+                    <li className="ml-4 mt-2 opacity-50 text-15">
+                        goga Live yoga
+                    </li>
+                    <li className="ml-4 mt-2 opacity-50 text-15">
+                        goga Live yoga
+                    </li>
+                </ul>
             </div>
             <hr className="my-6" />
             <div className="px-4 pb-8">
-                <div className="text-xl font-medium">How this works</div>
+                <div className="text-xl font-bold">How this works</div>
                 <div className="flex mt-3">
-                    <div className="w-5 mt-1 h-5 bg-gray-300 flex-shrink-0 mr-3"></div>
+                    <div className="w-5 mt-1 flex h-5 flex-shrink-0 mr-3">
+                        <img src={cameraIcon} alt="share" />
+                    </div>
                     <span className="opacity-50">
                         Live yoga with goga Live yoga with goga Live yoga with
                         goga Live
                     </span>
                 </div>
                 <div className="flex mt-3">
-                    <div className="w-5 mt-1 h-5 bg-gray-300 flex-shrink-0 mr-3"></div>
+                    <div className="w-5 mt-1 flex h-5 flex-shrink-0 mr-3">
+                        <img src={mailIcon} alt="share" />
+                    </div>
                     <span className="opacity-50">
                         Live yoga with goga Live yoga with goga Live yoga with
                         goga Live
                     </span>
                 </div>
                 <div className="flex mt-3">
-                    <div className="w-5 mt-1 h-5 bg-gray-300 flex-shrink-0 mr-3"></div>
+                    <div className="w-5 mt-1 flex h-5 flex-shrink-0 mr-3">
+                        <img src={timeIcon} alt="share" />
+                    </div>
                     <span className="opacity-50">
                         Live yoga with goga Live yoga with goga Live yoga with
                         goga Live
                     </span>
                 </div>
             </div>
-            <button className="text-base font-medium w-full text-white bg-green text-center py-5">
+            <button className="text-15 font-bold w-full text-white bg-green text-center py-5">
                 Book Now for Rs.199
             </button>
         </>

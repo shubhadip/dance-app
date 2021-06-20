@@ -1,7 +1,7 @@
 import React from "react";
 import { IPlanProps } from "../../shared/interfaces";
-import hot from './../../assets/images/hot.svg';
-import yoga from './../../assets/images/yoga-white.svg';
+import hot from "./../../assets/images/hot.svg";
+import yoga from "./../../assets/images/yoga-white.svg";
 
 const Plancard = (props: IPlanProps) => {
     return (
@@ -13,12 +13,12 @@ const Plancard = (props: IPlanProps) => {
                         className="object-fill w-full"
                     />
                     <div className=" absolute left-0 top-0 w-full p-3 flex justify-between">
-                        <span className="py-1 px-2 font-medium bg-red text-white uppercase text-xs rounded flex justify-center">
-                            <img src={hot} alt="hot" className="mr-1"/>
-                            <p>HOT</p>
+                        <span className="py-1 px-2 items-center font-medium bg-red text-white uppercase text-xs rounded flex justify-center">
+                            <img src={hot} alt="hot" className="mr-1" />
+                            <span className="font-bold">HOT</span>
                         </span>
-                        <span className="py-1 px-2 font-medium bg-orange text-white uppercase text-xs rounded">
-                            Enrolled
+                        <span className="py-1 font-bold px-2 font-medium bg-orange text-white uppercase text-xs rounded">
+                            50+ Enrolled
                         </span>
                     </div>
                     <div className="absolute left-0 bottom-0 m-3">
@@ -28,25 +28,27 @@ const Plancard = (props: IPlanProps) => {
                     </div>
                 </div>
                 <div className="p-4">
-                    <div className="text-lg font-medium">{props.name}</div>
+                    <div className="text-lg font-bold text-15">
+                        {props.name}
+                    </div>
                     <div className="flex justify-between font-medium mt-3">
                         <div>
-                            <div className="text-xs opacity-60">
-                               Next Session
+                            <div className="text-xs opacity-60 tracking-wide">
+                                Next Session
                             </div>
-                            <span className="text-sm">
+                            <span className="font-bold text-15">
                                 50+ Enrolled
                             </span>
                         </div>
                         <div>
-                            <div className="text-xs opacity-60 text-right">
-                               Fees
+                            <div className="text-xs opacity-60 text-right tracking-wide">
+                                Fees
                             </div>
-                            <span className="text-sm mr-1">
-                            ₹ {props.offerPrice}
+                            <span className="font-bold text-15 mr-2 opacity-30 line-through">
+                                ₹ {props.offerPrice}
                             </span>
-                            <span className="text-sm">
-                            ₹ {props.price}
+                            <span className="font-bold text-15">
+                                ₹ {props.price}
                             </span>
                         </div>
                     </div>

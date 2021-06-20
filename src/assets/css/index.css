@@ -6,6 +6,7 @@
 body {
   max-width: 768px;
   margin: 0 auto;
+  font-weight: 500;
   font-family: 'Rajdhani', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,4 +36,14 @@ code {
 }
 .cat-box.selected .cat-box-img{
   background-color: #FF4E00;
+}
+.left-bar::after{
+  content: '';
+  position: absolute;
+  left: -4px;
+  z-index: 1;
+  bottom: 0;
+  width: 40px;
+  background-color: #fff;
+  height: 30px;
 }
