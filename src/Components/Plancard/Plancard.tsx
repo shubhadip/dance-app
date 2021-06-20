@@ -1,5 +1,7 @@
 import React from "react";
 import { IPlanProps } from "../../shared/interfaces";
+import hot from './../../assets/images/hot.svg';
+import yoga from './../../assets/images/yoga-white.svg';
 
 const Plancard = (props: IPlanProps) => {
     return (
@@ -11,15 +13,18 @@ const Plancard = (props: IPlanProps) => {
                         className="object-fill w-full"
                     />
                     <div className=" absolute left-0 top-0 w-full p-3 flex justify-between">
-                        <span className="py-1 px-2 font-medium bg-red text-white uppercase text-xs rounded">
-                            HOT
+                        <span className="py-1 px-2 font-medium bg-red text-white uppercase text-xs rounded flex justify-center">
+                            <img src={hot} alt="hot" className="mr-1"/>
+                            <p>HOT</p>
                         </span>
                         <span className="py-1 px-2 font-medium bg-orange text-white uppercase text-xs rounded">
                             Enrolled
                         </span>
                     </div>
                     <div className="absolute left-0 bottom-0 m-3">
-                        <div className="w-10 h-10 rounded-full bg-light-orange flex justify-center items-center"></div>
+                        <div className="w-10 h-10 rounded-full bg-light-orange flex justify-center items-center">
+                            <img src={yoga} alt="yoga" />
+                        </div>
                     </div>
                 </div>
                 <div className="p-4">
