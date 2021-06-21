@@ -31,12 +31,6 @@ code {
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
-.cat-box .cat-box-img{
-  background-color: #F8f8f8;
-}
-.cat-box.selected .cat-box-img{
-  background-color: #FF4E00;
-}
 .left-bar::after{
   content: '';
   position: absolute;
@@ -47,3 +41,19 @@ code {
   background-color: #fff;
   height: 30px;
 }
+.cat-box-img .img-white{opacity: 0}
+.cat-box-img .img-white, .cat-box-img .img-black{
+  left: 50%;
+  top: 50%;
+  transition: 0.45s;
+  transform: translate(-50%, -50%);
+}
+.cat-box .cat-box-img{
+  background-color: #F8f8f8;
+  transition: 0.45s;
+}
+.cat-box.selected .cat-box-img{
+  background-color: #FF4E00;
+}
+.cat-box.selected .cat-box-img .img-black{opacity: 0}
+.cat-box.selected .cat-box-img .img-white{opacity: 1}
