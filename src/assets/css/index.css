@@ -31,15 +31,36 @@ code {
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
-.left-bar::after{
+.left-bar::before{
   content: '';
   position: absolute;
   left: -4px;
+  border-radius: 100%;
   z-index: 1;
-  bottom: 0;
-  width: 40px;
-  background-color: #fff;
-  height: 30px;
+  top: 4px;
+  width: 10px;
+  background-color: #BDBDBD;
+  height: 10px;
+}
+.left-bar::after{
+  content: '';
+  position: absolute;
+  left: 0px;
+  z-index: 1;
+  top: 4px;
+  width: 1px;
+  background-color: #BDBDBD;
+  height: 100%;
+}
+.left-bar-wrapper:after{
+  content: '';
+    position: absolute;
+    left: -10px;
+    z-index: 1;
+    bottom: -4px;
+    width: 30px;
+    background-color: #fff;
+    height: 46px;
 }
 .cat-box-img .img-white{opacity: 0}
 .cat-box-img .img-white, .cat-box-img .img-black{

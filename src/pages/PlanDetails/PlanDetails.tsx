@@ -4,6 +4,7 @@ import shareIcon from "./../../assets/images/share.svg";
 import cameraIcon from "./../../assets/images/video.svg";
 import mailIcon from "./../../assets/images/mail.svg";
 import timeIcon from "./../../assets/images/time.svg";
+import sessionImg from "./../../assets/images/session.svg";
 
 export function PlanDetails() {
     return (
@@ -26,7 +27,7 @@ export function PlanDetails() {
                 <div className="px-4">
                     <div className="w-full -mt-5 relative">
                         <div className="w-10 h-10 rounded-full shadow-md bg-orange flex justify-center items-center">
-                            <img src={yoga} alt="yoga" />
+                            <img src={yoga} alt="yoga" className="w-7" />
                         </div>
                     </div>
                     <div className="mt-2">
@@ -56,15 +57,32 @@ export function PlanDetails() {
                 </div>
                 <hr className="my-6" />
                 <div className="px-4">
-                    <div className="text-xl font-bold mb-3">Session Flow</div>
-                    <div className="relative overflow-hidden ml-2 left-bar border-l-2 border-dashed">
-                        <div className="ml-8 mb-2">
+                    <div className="flex">
+                        <img src={sessionImg} alt="yoga" className="w-6 -mt-2 mr-3" />
+                        <div className="text-xl font-bold mb-3">
+                            Session Flow
+                        </div>
+                    </div>
+                    <div className="relative ml-2 left-bar-wrapper">
+                        <div className="pl-8 pb-2 left-bar relative">
                             <div className="font-medium">Yoga with goga</div>
                             <span className="opacity-50 text-xs">
                                 10 Minutes
                             </span>
                         </div>
-                        <div className="ml-8 mb-2">
+                        <div className="pl-8 pb-2 left-bar relative">
+                            <div className="font-medium">Yoga with goga</div>
+                            <span className="opacity-50 text-xs">
+                                10 Minutes
+                            </span>
+                        </div>
+                        <div className="pl-8 pb-2 left-bar relative">
+                            <div className="font-medium">Yoga with goga</div>
+                            <span className="opacity-50 text-xs">
+                                10 Minutes
+                            </span>
+                        </div>
+                        <div className="pl-8 pb-2 left-bar left-bar-last relative">
                             <div className="font-medium">Yoga with goga</div>
                             <span className="opacity-50 text-xs">
                                 10 Minutes
