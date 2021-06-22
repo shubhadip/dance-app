@@ -42,7 +42,6 @@ export default function DropDown(props: IDropDown) {
 
 	const customStyles = {
 		control: (provided: any, state: any) => {
-			console.log(state)
 			return ({
 				...provided,
 				border: state.hasValue ? '2px solid green' : '2px solid blue',

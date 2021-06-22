@@ -1,35 +1,35 @@
 import { timeSlotMapping } from "./constants"
 
-export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate : any, selectedCategory: any, selectedSort: any) => {
+export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: any, selectedCategory: any, selectedSort: any) => {
   let prod: any = [];
-  if(selectedCategory){
+  if (selectedCategory) {
     const category = data.filter((catItem: any) => catItem.category === selectedCategory.category);
     prod = category[0].products;
-  }else{
+  } else {
     data.forEach((catItem: any) => {
       prod = [...prod, ...catItem.products]
     })
   }
-  if(selectedDate && !selectedSlot) {
-    prod = prod.filter((p: any)=> {
+  if (selectedDate && !selectedSlot) {
+    prod = prod.filter((p: any) => {
       const dateValues = Object.keys(p.slots);
       return dateValues.includes(selectedDate.value)
-    })  
-  }else if(selectedSlot && selectedDate){
-    prod = prod.filter((p: any)=> {
+    })
+  } else if (selectedSlot && selectedDate) {
+    prod = prod.filter((p: any) => {
       const value = p.slots[selectedDate.value]
-      if(value){
+      if (value) {
         return value.some((item: any) => (timeSlotMapping as any)[selectedSlot.value].includes(item))
-      }else{
+      } else {
         return false;
       }
     })
   }
-  if(selectedSort){
-    prod.sort((a: any,b: any) => {
-      if(selectedSort.value === 0){
+  if (selectedSort) {
+    prod.sort((a: any, b: any) => {
+      if (selectedSort.value === 0) {
         return a.offerPrice - b.offerPrice
-      }else{
+      } else {
         return b.offerPrice - a.offerPrice
       }
     })
@@ -49,30 +49,30 @@ export const getAllCategories = (data: any) => {
 
 export const getUniqueDateOptions = (data?: any) => {
   let prod: any = [];
-		let slotItems: any = [];
-		data.forEach((catItem: any) => {
-      prod = [...prod, ...catItem.products]
-    });
-		prod.forEach((slotItem: any) => {
-      slotItems = [...slotItems, ...(Object.keys(slotItem.slots))]
-    });
-    const uniques = slotItems.filter((v: any, i: any, a: any) => a.indexOf(v) === i);
-    return uniques.map((item: any) => {
-      return {
-        value: item,
-        label: item
-      }
-    }).sort((a: any,b: any) => (new Date(a.value)).getTime()-(new Date(b.value)).getTime())
+  let slotItems: any = [];
+  data.forEach((catItem: any) => {
+    prod = [...prod, ...catItem.products]
+  });
+  prod.forEach((slotItem: any) => {
+    slotItems = [...slotItems, ...(Object.keys(slotItem.slots))]
+  });
+  const uniques = slotItems.filter((v: any, i: any, a: any) => a.indexOf(v) === i);
+  return uniques.map((item: any) => {
+    return {
+      value: item,
+      label: item
+    }
+  }).sort((a: any, b: any) => (new Date(a.value)).getTime() - (new Date(b.value)).getTime())
 }
 
 export const getSlotsForDropDown = () => {
   return [{
     value: 0,
     label: 'Morning'
-  },{
+  }, {
     value: 1,
     label: 'Afternoon'
-  },{
+  }, {
     value: 2,
     label: 'Evening'
   }]
@@ -82,8 +82,16 @@ export const getSortOptions = () => {
   return [{
     value: 0,
     label: 'Low to High'
-  },{
+  }, {
     value: 1,
     label: 'High to Low'
   }]
+}
+
+export const getSelectedProduct = (data: any, productName: string) => {
+  let prod: any = [];
+  data.forEach((catItem: any) => {
+    prod = [...prod, ...catItem.products]
+  })
+  return prod.filter((p: any) => p.name === productName)[0]
 }

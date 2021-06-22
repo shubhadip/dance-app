@@ -7,7 +7,7 @@ export enum RouteName {
 export interface IRoute {
   path: string;
   routeName: RouteName;
-  component: () => JSX.Element;
+  component: (props?: any) => JSX.Element;
   exact: boolean
 }
 

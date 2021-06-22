@@ -1,20 +1,13 @@
-import About from "../pages/About/About";
 import App from "../pages/App/App";
 import { PlanDetails } from "../pages/PlanDetails/PlanDetails";
 import { IRoute, RouteName } from "./interfaces";
 
-export const routes : IRoute[] = [
+export const routes: IRoute[] = [
   {
     component: App,
     routeName: RouteName.App,
     path: "/",
     exact: true,
-  },
-  {
-    component: About,
-    routeName: RouteName.About,
-    path: "/about",
-    exact: true
   },
   {
     component: PlanDetails,
