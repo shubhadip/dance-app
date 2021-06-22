@@ -20,7 +20,7 @@ export default function DropDown(props: IDropDown) {
 	let customComponents = {
 		IndicatorSeparator: () => null,
 		Placeholder: () => (
-			<span>{props.placeholder}</span>
+			<span className="font-bold">{props.placeholder}</span>
 		)
 	}
 
@@ -44,7 +44,7 @@ export default function DropDown(props: IDropDown) {
 		control: (provided: any, state: any) => {
 			return ({
 				...provided,
-				border: state.hasValue ? '2px solid green' : '2px solid blue',
+				border: state.hasValue ? '1px solid #007e34' : '1px solid #3999e3',
 				borderRadius: '6px',
 				backgroundColor: 'white'
 			})
@@ -52,13 +52,13 @@ export default function DropDown(props: IDropDown) {
 		dropdownIndicator: (provided: any, state: any) => {
 			return ({
 				...provided,
-				color: state.hasValue ? 'green' : 'blue'
+				color: state.hasValue ? 'green' : '#3999e3'
 			})
 		},
 		valueContainer: (provided: any, state: any) => {
 			return ({
 				...provided,
-				color: state.hasValue ? 'green' : 'blue'
+				color: state.hasValue ? 'green' : '#3999e3'
 			})
 		},
 		option: (provided: any, state: any) => ({
@@ -77,9 +77,9 @@ export default function DropDown(props: IDropDown) {
 				components={customComponents}
 				formatOptionLabel={formatOptionLabel}
 				styles={customStyles}
-				controlColor={'blue'}
-				valueContainer={'blue'}
-				dropdownIndicator={'blue'}
+				controlColor={'#3999e3'}
+				valueContainer={'#3999e3'}
+				dropdownIndicator={'#3999e3'}
 			/>
 		</div>
 	);
