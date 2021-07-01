@@ -147,7 +147,7 @@ export function PlanDetails(props: any) {
 						</span>
 					</div>
 				</div>
-				<button className="text-15 z-10 fixed bottom-0 w-full left-0 font-bold text-white bg-green text-center py-5">
+				<button className="text-15 z-10 outline-none focus:outline-none fixed bottom-0 w-full left-0 font-bold text-white bg-green text-center py-5">
 					Book Now for Rs. {selectedProduct?.discounted_price}
 				</button>
 			</div>
