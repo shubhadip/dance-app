@@ -2,8 +2,6 @@ import { IPlanProps } from "../../shared/interfaces";
 import { useHistory } from "react-router";
 import hot from "./../../assets/images/hot.svg";
 import yoga from "./../../assets/images/yoga-white.svg";
-import { format } from "date-fns";
-import { timeSlotMapping } from "../../utils/constants";
 
 const Plancard = (props: IPlanProps) => {
 	let history = useHistory();
@@ -11,15 +9,8 @@ const Plancard = (props: IPlanProps) => {
 	const routeToDetailPage = () => {
 		history.push(`/plandetails/${props.product_id}`)
 	}
-	const tempDate = props?.selectedDate?.value || format(new Date(), 'yyyy-MM-dd')
 	
-	if(tempDate) {
-		if(props?.slots){
-			const date = props?.slots[tempDate]
-			console.log('date', date);
-			console.log('slot', (timeSlotMapping as any)[props.selectedSlot?.value]);
-		}
-	}
+		const sessionText = props?.firstStartHr ? `${props?.firstStartHr} : 00 ${ props?.firstStartHr < 12  ? 'AM' : 'PM'} - ${props?.firstStartHr + 1} : 00 ${ props?.firstStartHr + 1 < 12  ? 'AM' : 'PM'}` : ''
 	return (
 		<>
 			<div className="mb-4 shadow-lg rounded-lg overflow-hidden" onClick={routeToDetailPage}>
@@ -54,7 +45,7 @@ const Plancard = (props: IPlanProps) => {
 								Next Session
 							</div>
 							<span className="font-bold text-15">
-								{props.enrolled_qty} Enrolled
+								{ sessionText }
 							</span>
 						</div>
 						<div>

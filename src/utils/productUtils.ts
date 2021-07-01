@@ -1,7 +1,10 @@
+import { isToday } from "date-fns";
 import { timeSlotMapping } from "./constants"
 
 export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: any, selectedCategory: any, selectedSort: any) => {
   let prod: any = [];
+  let firstStartHr: number = 0;
+
   if (selectedCategory) {
     const category = data.filter((catItem: any) => catItem.product_category === selectedCategory.category);
     prod = category[0].products;
@@ -14,12 +17,41 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
     prod = prod.filter((p: any) => {
       const dateValues = Object.keys(p.slots);
       return dateValues.includes(selectedDate.value)
+    }).map((p:any) => {
+      const slots = p?.slots[selectedDate.value]
+      const cHour = (new Date()).getHours();
+      firstStartHr = slots.filter((time: number)=> time > cHour)[0]
+      return {
+        ...p,
+        firstStartHr: firstStartHr
+      }
     })
+
   } else if (selectedSlot && selectedDate) {
+    const slotLength = (timeSlotMapping as any)[selectedSlot?.value]
+    const minslotTime = (timeSlotMapping as any)[selectedSlot?.value][0]
+    const maxslotTime = (timeSlotMapping as any)[selectedSlot?.value][slotLength.length-1]
+
     prod = prod.filter((p: any) => {
       const value = p.slots[selectedDate.value]
+      const dd = (new Date()).getHours();
       if (value) {
-        return value.some((item: any) => (timeSlotMapping as any)[selectedSlot.value].includes(item))
+        if(p?.slots && selectedSlot?.label){
+          const date = p?.slots[selectedDate.value]
+          const slotted = ((timeSlotMapping as any)[selectedSlot?.value] || [])
+          const filteredArray = date.filter((value: number) => slotted.includes(value));
+          if(isToday(new Date(selectedDate.value))){
+            firstStartHr = filteredArray.filter((time: number)=> time > dd && ( time > minslotTime && time < maxslotTime))[0]
+          }else{
+            firstStartHr = filteredArray[0]
+          }
+        }else{
+          const slots = p?.slots[selectedDate.value]
+          const cHour = (new Date()).getHours();
+          firstStartHr = slots.filter((time: number)=> time > cHour)[0]
+        }
+        p['firstStartHr'] = firstStartHr || 0;
+        return !!firstStartHr
       } else {
         return false;
       }

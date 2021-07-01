@@ -90,7 +90,7 @@ export const App = () => {
             </div>
         ) : null;
     };
-
+    console.log(filteredProducts.length);
 	return (
 		<div className="App">
 			<div className="px-4">
