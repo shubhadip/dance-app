@@ -19,6 +19,7 @@ const Plancard = (props: IPlanProps) => {
 					<img
 						src="https://picsum.photos/200/300"
 						className="object-fill w-full"
+						alt={props.product_name}
 					/>
 					<div className=" absolute left-0 top-0 w-full p-3 flex justify-between">
 						<span className="py-1 px-2 items-center font-medium bg-red text-white uppercase text-xs rounded flex justify-center">

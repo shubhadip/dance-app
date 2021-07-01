@@ -90,8 +90,8 @@ export const App = () => {
             </div>
         ) : null;
     };
-    console.log(filteredProducts.length);
-	return (
+
+    return (
 		<div className="App">
 			<div className="px-4">
 				<div className="mt-5 flex justify-between items-center">
