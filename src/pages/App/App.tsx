@@ -4,90 +4,92 @@ import Plancard from "../../Components/Plancard/Plancard";
 import { yyyyMMdd } from "../../utils/constants";
 import leftArrow from "./../../assets/images/arrow.svg";
 import {
-	getAllCategories,
-	getUniqueDateOptions,
-	getFilteredProducts,
-	getSlotsForDropDown,
-	getSortOptions,
+    getAllCategories,
+    getUniqueDateOptions,
+    getFilteredProducts,
+    getSlotsForDropDown,
+    getSortOptions,
 } from "../../utils/productUtils";
 import DropDown from "../../Components/DropDown/DropDown";
 import { ICategory, IPlanProps } from "../../shared/interfaces";
 import { Category } from "../../Components/Category/Category";
 
 export const App = () => {
-	const slotOptions = getSlotsForDropDown();
-	const sortOptions = getSortOptions();
+    const slotOptions = getSlotsForDropDown();
+    const sortOptions = getSortOptions();
 
-	const [products, setProducts] = useState([]);
-	const [categories, setCategories] = useState([]);
-	const [filteredProducts, setFilteredProducts] = useState([]);
-	const [selectedDate, setDate] = useState({
-		value: format(new Date(), yyyyMMdd),
-		label: format(new Date(), yyyyMMdd),
-	});
-	const [selectedSlot, setSlot] = useState(null);
-	const [selectedSort, setSort] = useState(null);
-	const [selectedCategory, setCategory] = useState<ICategory | null>(null);
+    const [products, setProducts] = useState([]);
+    const [categories, setCategories] = useState([]);
+    const [filteredProducts, setFilteredProducts] = useState([]);
+    const [selectedDate, setDate] = useState({
+        value: format(new Date(), yyyyMMdd),
+        label: format(new Date(), yyyyMMdd),
+    });
+    const [selectedSlot, setSlot] = useState(null);
+    const [selectedSort, setSort] = useState(null);
+    const [selectedCategory, setCategory] = useState<ICategory | null>(null);
 
-	useEffect(() => {
-		fetch("./products.json")
-			.then((data) => data.json())
-			.then((response) => {
-				setCategories(getAllCategories(response));
-				setProducts(response);
-			});
-	}, []);
+    useEffect(() => {
+        fetch("./products.json")
+            .then((data) => data.json())
+            .then((response) => {
+                setCategories(getAllCategories(response));
+                setProducts(response);
+            });
+    }, []);
 
-	useEffect(() => {
-		const temp = getUniqueDateOptions(products);
-		setDateOptions(temp);
-		const data = getFilteredProducts(
-			products,
-			selectedSlot,
-			selectedDate,
-			selectedCategory,
-			selectedSort
-		);
-		setFilteredProducts(data);
-	}, [selectedSlot, selectedDate, selectedCategory, products, selectedSort]);
+    useEffect(() => {
+        const temp = getUniqueDateOptions(products);
+        setDateOptions(temp);
+        const data = getFilteredProducts(
+            products,
+            selectedSlot,
+            selectedDate,
+            selectedCategory,
+            selectedSort
+        );
+        setFilteredProducts(data);
+    }, [selectedSlot, selectedDate, selectedCategory, products, selectedSort]);
 
-	const handleDateChange = (data: any) => {
-		setDate(data);
-	};
+    const handleDateChange = (data: any) => {
+        setDate(data);
+    };
 
-	const [dateOptions, setDateOptions]: any = useState([
-		{
-			value: format(new Date(), yyyyMMdd),
-			label: format(new Date(), yyyyMMdd),
-		},
-	]);
+    const [dateOptions, setDateOptions]: any = useState([
+        {
+            value: format(new Date(), yyyyMMdd),
+            label: format(new Date(), yyyyMMdd),
+        },
+    ]);
 
-	const handleSlotChange = (data: any) => {
-		setSlot(data);
-	};
+    const handleSlotChange = (data: any) => {
+        setSlot(data);
+    };
 
-	const handleSortChange = (data: any) => {
-		setSort(data);
-	};
+    const handleSortChange = (data: any) => {
+        setSort(data);
+    };
 
-	const handleCategoryChange = (data: any) => {
-		setCategory(data);
-		setSlot(null);
-	};
+    const handleCategoryChange = (data: any) => {
+        setCategory(data);
+        setSlot(null);
+    };
 
-	const dateFormatJSX = () => {
-		const month = format(new Date(selectedDate.value), "MMM");
-		const day = format(new Date(selectedDate.value), "E");
-		const date = format(new Date(selectedDate.value), "do");
-		return selectedDate.value ? (
-			<div className="py-0.5 pl-2">
-				<span className="block text-xs uppercase text-green">{month}</span>
-				<span className="text-sm block font-bold -mt-1 text-green">
-					{day} {date}
-				</span>
-			</div>
-		) : null;
-	};
+    const dateFormatJSX = () => {
+        const month = format(new Date(selectedDate.value), "MMM");
+        const day = format(new Date(selectedDate.value), "E");
+        const date = format(new Date(selectedDate.value), "do");
+        return selectedDate.value ? (
+            <div className="py-0.5 pl-2">
+                <span className="block text-xs uppercase text-green">
+                    {month}
+                </span>
+                <span className="text-sm block font-bold -mt-1 text-green">
+                    {day} {date}
+                </span>
+            </div>
+        ) : null;
+    };
 
 	return (
 		<div className="App">
