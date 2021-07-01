@@ -3,6 +3,7 @@ import format from "date-fns/format";
 import Plancard from "../../Components/Plancard/Plancard";
 import { yyyyMMdd } from "../../utils/constants";
 import leftArrow from "./../../assets/images/arrow.svg";
+import noResult from "./../../assets/images/no-result.svg";
 import {
     getAllCategories,
     getUniqueDateOptions,
@@ -147,7 +148,10 @@ export const App = () => {
 								return <Plancard {...item} key={index} selectedDate={selectedDate} selectedSlot={selectedSlot} />;
 							}
 						)
-						: null}
+						: <div className="px-10 py-5 flex flex-col items-center">
+                            <img src={noResult} alt="yoga" className="w-40 mb-6" />
+                            <span className="font-bold opacity-50">No Result Found</span>
+                        </div> }
 				</div>
 			</div>
 		</div>
