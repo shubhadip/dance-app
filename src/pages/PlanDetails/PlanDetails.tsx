@@ -12,6 +12,7 @@ import { getSelectedProduct } from "../../utils/productUtils";
 export function PlanDetails(props: any) {
 	const history = useHistory();
 	const urlData: any = useParams();
+	const [readMore, setReadMore] = useState(false)
 	const [selectedProduct, setProduct] = useState(props.selectedProduct)
 	if (!urlData.id) {
 		history.push('/')
@@ -29,6 +30,11 @@ export function PlanDetails(props: any) {
 		history.goBack();
 	}
 
+	const handleReadMore = (): void => {
+		setReadMore(true)
+	}
+
+	
 	return (
 		<>
 			<div className="pb-14">
@@ -54,79 +60,62 @@ export function PlanDetails(props: any) {
 					</div>
 					<div className="mt-2">
 						<div className="text-xl font-bold">
-							{selectedProduct?.name}
+							{selectedProduct?.product_name}
 						</div>
 						<div className="text-xs mt-1 flex justify-between">
-							<span className="opacity-50">gjhgj</span>
-							<span className="text-orange">gjhgjgjgh</span>
+							<span className="opacity-50">{selectedProduct?.product_academy}</span>
+							<span className="text-orange">{selectedProduct?.enrolled_qty} +Enrolled</span>
 						</div>
 					</div>
 				</div>
 				<hr className="my-6" />
 				<div className="px-4">
 					<div className="text-xl font-bold mb-3">
-						Live yoga with goga Live yoga
+						What to expect from this session
 					</div>
 					<div className="text-sm opacity-50">
-						Live yoga with goga Live yoga with goga Live yoga with
-						goga Live yoga with goga Live yoga with goga Live yoga
-						with goga
+						{ readMore ? selectedProduct?.product_description : (selectedProduct?.product_description || '').slice(0,100)}
 					</div>
-					<span className=" font-bold text-xs text-blue">
+					{ !readMore ? <span className=" font-bold text-xs text-blue" onClick={handleReadMore}>
 						READ MORE
-					</span>
+					</span> : null }
 				</div>
 				<hr className="my-6" />
 				<div className="px-4">
 					<div className="flex">
 						<img src={sessionImg} alt="yoga" className="w-6 -mt-2 mr-3" />
 						<div className="text-xl font-bold mb-3">
-							Session Flow
+							Session Flow {selectedProduct?.session_duration ? <span className="opacity-50 text-xs">({selectedProduct?.session_duration})</span> : null }
 						</div>
 					</div>
 					<div className="relative ml-2 left-bar-wrapper">
-						<div className="pl-8 pb-2 left-bar relative">
-							<div className="font-medium">Yoga with goga</div>
-							<span className="opacity-50 text-xs">
-								10 Minutes
-							</span>
-						</div>
-						<div className="pl-8 pb-2 left-bar relative">
-							<div className="font-medium">Yoga with goga</div>
-							<span className="opacity-50 text-xs">
-								10 Minutes
-							</span>
-						</div>
-						<div className="pl-8 pb-2 left-bar relative">
-							<div className="font-medium">Yoga with goga</div>
-							<span className="opacity-50 text-xs">
-								10 Minutes
-							</span>
-						</div>
-						<div className="pl-8 pb-2 left-bar left-bar-last relative">
-							<div className="font-medium">Yoga with goga</div>
-							<span className="opacity-50 text-xs">
-								10 Minutes
-							</span>
-						</div>
+						{
+							selectedProduct  ? selectedProduct.session_flow.map((item: any) => {
+									return (
+										<div className="pl-8 pb-2 left-bar relative" key={item.title}>
+											<div className="font-medium">{item.title}</div>
+											<span className="opacity-50 text-xs">
+												{item.time}
+											</span>
+										</div>
+									)
+							}) : null
+						}
 					</div>
 				</div>
 				<hr className="my-6" />
 				<div className="px-4 list-disc">
 					<div className="text-xl font-bold">Benefits</div>
 					<ul className="list-outside list-disc">
-						<li className="ml-4 mt-2 opacity-50 text-15">
-							goga Live yoga
-						</li>
-						<li className="ml-4 mt-2 opacity-50 text-15">
-							goga Live yoga
-						</li>
-						<li className="ml-4 mt-2 opacity-50 text-15">
-							goga Live yoga
-						</li>
-						<li className="ml-4 mt-2 opacity-50 text-15">
-							goga Live yoga
-						</li>
+					{
+						selectedProduct  ? selectedProduct.product_benefits.map((item: string) => {
+							return (
+								<li className="ml-4 mt-2 opacity-50 text-15" key={item}>
+									{item}
+								</li>
+							)
+						}) : null 
+						}
 					</ul>
 				</div>
 				<hr className="my-6" />
@@ -137,8 +126,7 @@ export function PlanDetails(props: any) {
 							<img src={cameraIcon} alt="share" />
 						</div>
 						<span className="opacity-50">
-							Live yoga with goga Live yoga with goga Live yoga
-							with goga Live
+							This session will be conducted via zoom video.
 						</span>
 					</div>
 					<div className="flex mt-3">
@@ -146,8 +134,7 @@ export function PlanDetails(props: any) {
 							<img src={mailIcon} alt="share" />
 						</div>
 						<span className="opacity-50">
-							Live yoga with goga Live yoga with goga Live yoga
-							with goga Live
+							On booking, you will be provided with details on email.
 						</span>
 					</div>
 					<div className="flex mt-3">
@@ -155,13 +142,13 @@ export function PlanDetails(props: any) {
 							<img src={timeIcon} alt="share" />
 						</div>
 						<span className="opacity-50">
-							Live yoga with goga Live yoga with goga Live yoga
-							with goga Live
+							Prior to the session, you will receive a link that you need
+							to connect via stable internet connection.
 						</span>
 					</div>
 				</div>
 				<button className="text-15 z-10 fixed bottom-0 w-full left-0 font-bold text-white bg-green text-center py-5">
-					Book Now for Rs.199
+					Book Now for Rs. {selectedProduct?.discounted_price}
 				</button>
 			</div>
 		</>

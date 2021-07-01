@@ -49,15 +49,20 @@ export interface IButtonProps {
 
 
 export interface IPlanProps {
-  name: string
-  image: string
-  video: string
-  price: number
-  offerPrice: number
-  tag: string
+  product_id: string
+  product_name: string
+  image?: string
+  video?: string
+  product_price: number
+  discounted_price: number
+  product_tag: string
   description?: string
   title?: string
   subtitle?: string
+  enrolled_qty?: number 
+  selectedDate?: any
+  selectedSlot?: any
+  slots?: any
 }
 
 export interface ICategory {

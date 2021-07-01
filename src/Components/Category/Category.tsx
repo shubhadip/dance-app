@@ -1,5 +1,6 @@
 import yoga from "./../../assets/images/yoga.svg";
 import yogaWhite from "./../../assets/images/yoga-white.svg";
+
 export const Category = (props: any) => {
     const { categories, selectedCategory, handleCategoryChange } = props;
     return (
@@ -43,7 +44,7 @@ export const Category = (props: any) => {
                             />
                         </div>
                         <span className="text-xs mt-2 cat-box-name capitalize">
-                            {citem.category}
+                            {citem.name}
                         </span>
                     </div>
                 );

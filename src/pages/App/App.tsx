@@ -142,7 +142,7 @@ export const App = () => {
 					{filteredProducts.length
 						? filteredProducts.map(
 							(item: IPlanProps, index: number) => {
-								return <Plancard {...item} key={index} />;
+								return <Plancard {...item} key={index} selectedDate={selectedDate} selectedSlot={selectedSlot} />;
 							}
 						)
 						: null}

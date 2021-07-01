@@ -3,7 +3,7 @@ import { timeSlotMapping } from "./constants"
 export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: any, selectedCategory: any, selectedSort: any) => {
   let prod: any = [];
   if (selectedCategory) {
-    const category = data.filter((catItem: any) => catItem.category === selectedCategory.category);
+    const category = data.filter((catItem: any) => catItem.product_category === selectedCategory.category);
     prod = category[0].products;
   } else {
     data.forEach((catItem: any) => {
@@ -28,9 +28,9 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
   if (selectedSort) {
     prod.sort((a: any, b: any) => {
       if (selectedSort.value === 0) {
-        return a.offerPrice - b.offerPrice
+        return a.discounted_price - b.discounted_price
       } else {
-        return b.offerPrice - a.offerPrice
+        return b.discounted_price - a.discounted_price
       }
     })
   }
@@ -40,9 +40,9 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
 export const getAllCategories = (data: any) => {
   return data.map((item: any) => {
     return {
-      category: item.category,
-      name: item.categoryName,
-      image: item.categoryImage,
+      category: item.product_category,
+      name: item.product_category_name,
+      image: item.product_cat_image_url,
     }
   })
 }
@@ -88,10 +88,10 @@ export const getSortOptions = () => {
   }]
 }
 
-export const getSelectedProduct = (data: any, productName: string) => {
+export const getSelectedProduct = (data: any, id: string) => {
   let prod: any = [];
   data.forEach((catItem: any) => {
     prod = [...prod, ...catItem.products]
   })
-  return prod.filter((p: any) => p.name === productName)[0]
+  return prod.filter((p: any) => p.product_id === id)[0]
 }
