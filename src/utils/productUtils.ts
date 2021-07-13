@@ -3,7 +3,6 @@ import { timeSlotMapping } from "./constants"
 
 export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: any, selectedCategory: any, selectedSort: any) => {
   let prod: any = [];
-  let firstStartHr: number = 0;
 
   if (selectedCategory) {
     const category = data.filter((catItem: any) => catItem.product_category === selectedCategory.category);
@@ -14,46 +13,64 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
     })
   }
   if (selectedDate && !selectedSlot) {
-    prod = prod.filter((p: any) => {
-      const dateValues = Object.keys(p.slots);
-      return dateValues.includes(selectedDate.value)
-    }).map((p:any) => {
-      const slots = p?.slots[selectedDate.value]
-      const cHour = (new Date()).getHours();
-      firstStartHr = slots.filter((time: number)=> time > cHour)[0]
-      return {
-        ...p,
-        firstStartHr: firstStartHr
+    prod.forEach((p: any)=>{
+      p.selectedBatch = null;
+      const temp = p.slots[selectedDate.value] && p.slots[selectedDate.value].slotTimings 
+      if(temp){
+        const massageddata = temp.map((t: any) => {
+          const startTime = t.startTime.split(':')
+          const hr = `0${startTime[0]}`.slice(-2)
+          const min = `0${startTime[1]}`.slice(-2)
+          const endHr = t.endTime.split(':')[0]
+          const startTimeStamp = new Date(`${selectedDate.value} ${hr}:${min}:00`).getTime()
+          const slotText = `${t.startTime} ${Number(hr) > 12 && Number(hr) < 24 ? 'PM' :'AM'} - ${t.endTime} ${Number(endHr) > 12 && Number(endHr) < 24 ? 'PM' :'AM'}`
+          const currentTimestamp = new Date(`${selectedDate.value} ${isToday(new Date(selectedDate.value)) ? (new Date()).getHours() : '00'}:00:00`).getTime()
+          return {
+            ...t,
+            startTimeStamp,
+            slotText,
+            isValid: startTimeStamp > currentTimestamp
+          }
+        })
+        p.selectedBatch = massageddata.filter((a:any) => a.isValid).sort((a:any, b:any) => a.startTimeStamp - b.startTimeStamp)[0];
+        p.slots[selectedDate.value].slotTimings = massageddata
       }
     })
-
   } else if (selectedSlot && selectedDate) {
     const slotLength = (timeSlotMapping as any)[selectedSlot?.value]
     const minslotTime = (timeSlotMapping as any)[selectedSlot?.value][0]
     const maxslotTime = (timeSlotMapping as any)[selectedSlot?.value][slotLength.length-1]
-
-    prod = prod.filter((p: any) => {
-      const value = p.slots[selectedDate.value]
-      const dd = (new Date()).getHours();
-      if (value) {
-        if(p?.slots && selectedSlot?.label){
-          const date = p?.slots[selectedDate.value]
-          const slotted = ((timeSlotMapping as any)[selectedSlot?.value] || [])
-          const filteredArray = date.filter((value: number) => slotted.includes(value));
+    const minSlotTimeStamp = new Date(`${selectedDate.value} ${minslotTime}:00:00`).getTime()
+    const maxSlotTimeStamp = new Date(`${selectedDate.value} ${maxslotTime}:00:00`).getTime()
+    
+    prod.forEach((p: any)=>{
+      p.selectedBatch = null;
+      const temp = p.slots[selectedDate.value] && p.slots[selectedDate.value].slotTimings 
+      if(temp){
+        const massageddata = temp.map((t: any) => {
+          const startTime = t.startTime.split(':')
+          const hr = `0${startTime[0]}`.slice(-2)
+          const min = `0${startTime[1]}`.slice(-2)
+          const startTimeStamp = new Date(`${selectedDate.value} ${hr}:${min}:00`).getTime()
+          const slotText = `${t.startTime} - ${t.endTime}`
           if(isToday(new Date(selectedDate.value))){
-            firstStartHr = filteredArray.filter((time: number)=> time > dd && ( time > minslotTime && time < maxslotTime))[0]
+            return {
+              ...t,
+              startTimeStamp,
+              slotText,
+              isValid: (startTimeStamp > minSlotTimeStamp && startTimeStamp < maxSlotTimeStamp) && (startTimeStamp > (new Date()).getTime())
+            }
           }else{
-            firstStartHr = filteredArray[0]
+            return {
+              ...t,
+              startTimeStamp,
+              slotText,
+              isValid: startTimeStamp > minSlotTimeStamp && startTimeStamp < maxSlotTimeStamp
+            }
           }
-        }else{
-          const slots = p?.slots[selectedDate.value]
-          const cHour = (new Date()).getHours();
-          firstStartHr = slots.filter((time: number)=> time > cHour)[0]
-        }
-        p['firstStartHr'] = firstStartHr || 0;
-        return !!firstStartHr
-      } else {
-        return false;
+        })
+        p.selectedBatch = massageddata.filter((a:any) => a.isValid).sort((a:any, b:any) => a.startTimeStamp - b.startTimeStamp)[0];
+        p.slots[selectedDate.value].slotTimings = massageddata
       }
     })
   }
@@ -66,6 +83,7 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
       }
     })
   }
+  prod = prod.filter((p: any) => !!p.selectedBatch)
   return prod;
 }
 
@@ -125,5 +143,9 @@ export const getSelectedProduct = (data: any, id: string) => {
   data.forEach((catItem: any) => {
     prod = [...prod, ...catItem.products]
   })
-  return prod.filter((p: any) => p.product_id === id)[0]
+  let p = prod.filter((p: any) => p.product_id === id)[0]
+  if(localStorage.getItem('selectedBatch')){
+    p.selectedBatch = JSON.parse(localStorage.getItem('selectedBatch') as string)
+  }
+  return p
 }

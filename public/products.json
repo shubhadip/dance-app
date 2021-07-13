@@ -41,13 +41,27 @@
       "Improves muscle flexibility",
       "Builds endurance"
     ],
-    "slots": {
-      "2021-07-01" : [7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 20, 22, 23],
-      "2021-07-02" : [7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 20, 22, 23],
-      "2021-07-03" : [7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 20, 22, 23],
-      "2021-07-04" : [7, 8, 9, 10, 14, 15, 16, 18, 20, 22, 23],
-      "2021-07-05" : [7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 20, 22, 23],
-      "2021-07-06" : [7, 8, 9, 10, 12, 13, 14, 15, 16,  20, 22, 23]
+    "slots":{
+      "2021-07-13" : {
+        "slotTimings": [
+          {"startTime":"7:15", "endTime":"8:00", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"23:15", "endTime":"24:00", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"9:30", "endTime":"10:15", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"11:15", "endTime":"12:00", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"14:00", "endTime":"15:00", "duration": 60, "link": "https://www.google.com"},
+          {"startTime":"15:15", "endTime":"16:00", "duration": 45, "link": "https://www.google.com"}
+        ]
+      },
+      "2021-07-14": {
+        "slotTimings": [
+          {"startTime":"7:15", "endTime":"8:00", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"10:00", "endTime":"11:00", "duration": 60, "link": "https://www.google.com"},
+          {"startTime":"11:15", "endTime":"12:00", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"22:15", "endTime":"23:00", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"15:15", "endTime":"16:00", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"16:15", "endTime":"17:00", "duration": 45, "link": "https://www.google.com"}
+        ]
+      }
     }
   }]
 },{
@@ -93,13 +107,32 @@
       "Improves muscle flexibility",
       "Builds endurance"
     ],
-    "slots": {
-      "2021-07-01" : [7, 8, 9, 10, 12,13,14,15,16,18,20,22,23],
-      "2021-07-02" : [7, 8, 9, 10, 12,13,14,15,16,18,20,22,23],
-      "2021-07-03" : [7, 8, 9, 10, 12,13,14,15,16,18,20,22,23],
-      "2021-07-04" : [7, 8, 9, 10, 12,13,14,15,16,18,20,22,23],
-      "2021-07-05" : [7, 8, 9, 10, 12,13,14,15,16,18,20,22,23],
-      "2021-07-06" : [7, 8, 9, 10, 12,13,14,15,16,18,20,22,23]
+    "slots":{
+      "2021-07-15" : {
+        "slotTimings": [
+          {"startTime":"7:15", "endTime":"8:00", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"23:15", "endTime":"24:00", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"9:30", "endTime":"10:15", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"11:15", "endTime":"12:00", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"14:00", "endTime":"15:00", "duration": 60, "link": "https://www.google.com"},
+          {"startTime":"15:15", "endTime":"16:00", "duration": 45, "link": "https://www.google.com"}
+        ]
+      },
+      "2021-07-14" : {
+        "slotTimings": [
+          {"startTime":"7:15", "endTime":"8:00", "duration": 45, "link": "https://www.google.com"}
+        ]
+      },
+      "2021-07-16": {
+        "slotTimings": [
+          {"startTime":"7:15", "endTime":"8:00", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"10:00", "endTime":"11:00", "duration": 60, "link": "https://www.google.com"},
+          {"startTime":"11:15", "endTime":"12:00", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"22:15", "endTime":"23:00", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"15:15", "endTime":"16:00", "duration": 45, "link": "https://www.google.com"},
+          {"startTime":"16:15", "endTime":"17:00", "duration": 45, "link": "https://www.google.com"}
+        ]
+      }
     }
   }]
 }]

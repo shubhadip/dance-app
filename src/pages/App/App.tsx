@@ -31,6 +31,7 @@ export const App = () => {
     const [selectedCategory, setCategory] = useState<ICategory | null>(null);
 
     useEffect(() => {
+        localStorage.removeItem('selectedBatch')
         fetch("./products.json")
             .then((data) => data.json())
             .then((response) => {

@@ -50,7 +50,6 @@ export interface IButtonProps {
 
 export interface IPlanProps {
   product_id: string
-  firstStartHr: number
   product_name: string
   image?: string
   video?: string
@@ -63,6 +62,7 @@ export interface IPlanProps {
   enrolled_qty?: number 
   selectedDate?: any
   selectedSlot?: any
+  selectedBatch?: any
   slots?: any
 }
 

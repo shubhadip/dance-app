@@ -15,7 +15,7 @@ export function PlanDetails(props: any) {
 	const [readMore, setReadMore] = useState(false)
 	const [selectedProduct, setProduct] = useState(props.selectedProduct)
 	if (!urlData.id) {
-		history.push('/')
+		history.push('/');
 	}
 	useEffect(() => {
 		fetch("../products.json")
@@ -34,6 +34,9 @@ export function PlanDetails(props: any) {
 		setReadMore(true)
 	}
 
+	const redirectToPage = (): void => {
+		console.log(selectedProduct)
+	}
 	
 	return (
 		<>
@@ -147,7 +150,7 @@ export function PlanDetails(props: any) {
 						</span>
 					</div>
 				</div>
-				<button className="text-15 z-10 outline-none focus:outline-none fixed bottom-0 w-full left-0 font-bold text-white bg-green text-center py-5">
+				<button className="text-15 z-10 outline-none focus:outline-none fixed bottom-0 w-full left-0 font-bold text-white bg-green text-center py-5" onClick={redirectToPage}>
 					Book Now for Rs. {selectedProduct?.discounted_price}
 				</button>
 			</div>

@@ -8,9 +8,9 @@ const Plancard = (props: IPlanProps) => {
 
 	const routeToDetailPage = () => {
 		history.push(`/plandetails/${props.product_id}`)
+		localStorage.setItem('selectedBatch', JSON.stringify(props.selectedBatch))
 	}
 	
-		const sessionText = props?.firstStartHr ? `${props?.firstStartHr} : 00 ${ props?.firstStartHr < 12  ? 'AM' : 'PM'} - ${props?.firstStartHr + 1} : 00 ${ props?.firstStartHr + 1 < 12  ? 'AM' : 'PM'}` : ''
 	return (
 		<>
 			<div className="mb-4 shadow-lg rounded-lg overflow-hidden" onClick={routeToDetailPage}>
@@ -24,7 +24,7 @@ const Plancard = (props: IPlanProps) => {
 					<div className=" absolute left-0 top-0 w-full p-3 flex justify-between">
 						<span className="py-1 px-2 items-center font-medium bg-red text-white uppercase text-xs rounded flex justify-center">
 							<img src={hot} alt="hot" className="mr-1" />
-							<span className="font-bold">HOT</span>
+							<span className="font-bold capitalize">{props?.product_tag}</span>
 						</span>
 						<span className="py-1 font-bold px-2 font-medium bg-orange text-white uppercase text-xs rounded">
 							{props.enrolled_qty} Enrolled
@@ -46,7 +46,7 @@ const Plancard = (props: IPlanProps) => {
 								Next Session
 							</div>
 							<span className="font-bold text-15">
-								{ sessionText }
+								{ props?.selectedBatch?.slotText }
 							</span>
 						</div>
 						<div>
