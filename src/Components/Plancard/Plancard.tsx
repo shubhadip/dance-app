@@ -1,7 +1,7 @@
 import { IPlanProps } from "../../shared/interfaces";
 import { useHistory } from "react-router";
 import hot from "./../../assets/images/hot.svg";
-import yoga from "./../../assets/images/yoga-white.svg";
+// import yoga from "./../../assets/images/yoga-white.svg";
 
 const Plancard = (props: IPlanProps) => {
 	let history = useHistory();

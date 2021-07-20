@@ -1,5 +1,5 @@
-import yoga from "./../../assets/images/yoga.svg";
-import yogaWhite from "./../../assets/images/yoga-white.svg";
+// import yoga from "./../../assets/images/yoga.svg";
+// import yogaWhite from "./../../assets/images/yoga-white.svg";
 
 export const Category = (props: any) => {
     const { categories, selectedCategory, handleCategoryChange } = props;

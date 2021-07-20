@@ -35,7 +35,7 @@ export function PlanDetails(props: any) {
 	}
 
 	const redirectToPage = (): void => {
-		console.log(selectedProduct)
+		window.location.href = selectedProduct.selectedBatch.link;
 	}
 	
 	return (
