@@ -1,4 +1,4 @@
-import { isToday } from "date-fns";
+import { isToday, subDays } from "date-fns";
 import { timeSlotMapping } from "./constants"
 
 export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: any, selectedCategory: any, selectedSort: any) => {
@@ -132,7 +132,15 @@ export const getUniqueDateOptions = (data?: any) => {
       value: item,
       label: item
     }
-  }).sort((a: any, b: any) => (new Date(a.value)).getTime() - (new Date(b.value)).getTime())
+  })
+  .sort((a: any, b: any) => (new Date(a.value)).getTime() - (new Date(b.value)).getTime())
+  .filter((item: any) => {
+    return new Date(item.value) >= subDays(new Date(), 1);
+  })
+  .filter((item:any, index: number) => {
+    return index < 7;
+  })
+  
 }
 
 export const getSlotsForDropDown = () => {

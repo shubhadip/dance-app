@@ -3,7 +3,6 @@ import yogaWhite from "./../../assets/images/yoga-white.svg";
 
 export const Category = (props: any) => {
     const { categories, selectedCategory, handleCategoryChange } = props;
-    console.log(props);
     return (
         <div className="flex w-full overflow-x-auto pt-8">
             <div
