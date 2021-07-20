@@ -66,6 +66,7 @@ export interface IPlanProps {
   slots?: any
   product_image_url?:any
   product_cat_image_url?:any 
+  age_group?:any
 }
 
 export interface ICategory {

@@ -42,6 +42,24 @@ const Plancard = (props: IPlanProps) => {
 					<div className="flex justify-between font-medium mt-3">
 						<div>
 							<div className="text-xs opacity-60 tracking-wide">
+								Date
+							</div>
+							<span className="font-bold text-15">
+								{ props?.selectedBatch?.date }
+							</span>
+						</div>
+						<div>
+							<div className="text-xs opacity-60 text-right tracking-wide">
+								Age
+							</div>
+							<span className="font-bold text-15">
+								{props.age_group} yrs
+							</span>
+						</div>
+					</div>
+					<div className="flex justify-between font-medium mt-3">
+						<div>
+							<div className="text-xs opacity-60 tracking-wide">
 								Next Session
 							</div>
 							<span className="font-bold text-15">

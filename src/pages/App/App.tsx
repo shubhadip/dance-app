@@ -23,10 +23,7 @@ export const App = () => {
     const [categories, setCategories] = useState([]);
     const [filteredProducts, setFilteredProducts] = useState([]);
     const [isLoading, setLoading] = useState(true);
-    const [selectedDate, setDate] = useState({
-        value: format(new Date(), yyyyMMdd),
-        label: format(new Date(), yyyyMMdd),
-    });
+    const [selectedDate, setDate] = useState<any>(null);
     const [selectedSlot, setSlot] = useState(null);
     const [selectedSort, setSort] = useState(null);
     const [selectedCategory, setCategory] = useState<ICategory | null>(null);
@@ -77,13 +74,16 @@ export const App = () => {
     const handleCategoryChange = (data: any) => {
         setCategory(data);
         setSlot(null);
+        if(!data){
+            setDate(null);
+        }
     };
 
     const dateFormatJSX = () => {
-        const month = format(new Date(selectedDate.value), "MMM");
-        const day = format(new Date(selectedDate.value), "E");
-        const date = format(new Date(selectedDate.value), "do");
-        return selectedDate.value ? (
+        const month = format(new Date(selectedDate?.value), "MMM");
+        const day = format(new Date(selectedDate?.value), "E");
+        const date = format(new Date(selectedDate?.value), "do");
+        return selectedDate?.value ? (
             <div className="py-0.5 pl-2">
                 <span className="block text-xs uppercase text-green">
                     {month}
@@ -119,7 +119,7 @@ export const App = () => {
 									selectedOption={selectedDate}
 									onSelect={handleDateChange}
 									customValueLabel={true}
-									customValueJSX={dateFormatJSX()}
+									customValueJSX={selectedDate?.value ? dateFormatJSX(): <div className="pl-4 text-blue font-bold">Date</div>}
 									customClass={"dateDD"}
 								/>
 							) : null}
