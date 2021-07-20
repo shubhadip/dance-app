@@ -37,11 +37,11 @@ export const Category = (props: any) => {
                                 alt="yoga"
                                 className=" absolute w-9 img-black"
                             />
-                            {/* <img
-                                src={yogaWhite}
+                            <img
+                                src={citem.image}
                                 alt="yoga"
                                 className=" absolute w-9 img-white"
-                            /> */}
+                            />
                         </div>
                         <span className="text-xs mt-2 cat-box-name capitalize">
                             {citem.name}
