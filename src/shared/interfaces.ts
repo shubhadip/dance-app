@@ -64,6 +64,8 @@ export interface IPlanProps {
   selectedSlot?: any
   selectedBatch?: any
   slots?: any
+  product_image_url?:any
+  product_cat_image_url?:any 
 }
 
 export interface ICategory {

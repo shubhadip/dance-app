@@ -3,6 +3,7 @@ import yogaWhite from "./../../assets/images/yoga-white.svg";
 
 export const Category = (props: any) => {
     const { categories, selectedCategory, handleCategoryChange } = props;
+    console.log(props);
     return (
         <div className="flex w-full overflow-x-auto pt-8">
             <div
@@ -33,15 +34,15 @@ export const Category = (props: any) => {
                     >
                         <div className="cat-box-img shadow rounded-full w-14 h-14 relative">
                             <img
-                                src={yoga}
+                                src={citem.image}
                                 alt="yoga"
                                 className=" absolute w-9 img-black"
                             />
-                            <img
+                            {/* <img
                                 src={yogaWhite}
                                 alt="yoga"
                                 className=" absolute w-9 img-white"
-                            />
+                            /> */}
                         </div>
                         <span className="text-xs mt-2 cat-box-name capitalize">
                             {citem.name}
