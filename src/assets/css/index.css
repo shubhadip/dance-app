@@ -132,3 +132,14 @@ code {
         transform: rotate(-360deg);
     }
 }
+.appearme {
+  animation: appearme 0.2s cubic-bezier(.42, .61, .58, .41);
+}
+@keyframes appearme {
+    0% {
+       opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -4,7 +4,7 @@
 export const Category = (props: any) => {
     const { categories, selectedCategory, handleCategoryChange } = props;
     return (
-        <div className="flex w-full overflow-x-auto pt-8">
+        <div className="flex w-full appearme overflow-x-auto pt-8 pb-4">
             <div
                 className={[
                     "mx-3 cat-box text-center",

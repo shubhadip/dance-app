@@ -12,7 +12,7 @@ const Plancard = (props: IPlanProps) => {
 	}
 	return (
 		<>
-			<div className="mb-4 shadow-lg rounded-lg overflow-hidden" onClick={routeToDetailPage}>
+			<div className="mb-4 appearme shadow-lg rounded-lg overflow-hidden" onClick={routeToDetailPage}>
 				<div className="w-full relative bg-gray-200 h-40 overflow-hidden">
 				{/* <iframe className="object-fill w-full" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> */}
 					<img

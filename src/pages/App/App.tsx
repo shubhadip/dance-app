@@ -124,8 +124,8 @@ export const App = () => {
                     selectedCategory={selectedCategory}
                     handleCategoryChange={handleCategoryChange}
                 />
-                <div className="mb-8">
-                    <div className="my-8 text-right flex space-x-3">
+                <div className="mb-8 appearme">
+                    <div className="mt-4 mb-8 text-right flex space-x-3">
                         <div className="w-1/3">
                             {dateOptions.length ? (
                                 <DropDown
