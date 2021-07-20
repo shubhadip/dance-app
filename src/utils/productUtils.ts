@@ -7,11 +7,31 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
   if (selectedCategory) {
     const category = data.filter((catItem: any) => catItem.product_category === selectedCategory.category);
     prod = category[0].products;
+    prod = prod.map((p: any)=>{
+      p["product_category"] = category[0].product_category
+      p["product_category_name"]= category[0].product_category_name
+      p["product_cat_image_url"]= category[0].product_cat_image_url
+      p["product_category_id"]= category[0].product_category_id
+      return {
+        ...p
+      }
+    })
+    
   } else {
     data.forEach((catItem: any) => {
+      catItem.products.map((p: any)=>{
+        p["product_category"] = catItem.product_category
+        p["product_category_name"]= catItem.product_category_name
+        p["product_cat_image_url"]= catItem.product_cat_image_url
+        p["product_category_id"]= catItem.product_category_id
+        return {
+          ...p
+        }
+      })
       prod = [...prod, ...catItem.products]
     })
   }
+  
   if (selectedDate && !selectedSlot) {
     prod.forEach((p: any)=>{
       p.selectedBatch = null;

@@ -10,7 +10,6 @@ const Plancard = (props: IPlanProps) => {
 		history.push(`/plandetails/${props.product_id}`)
 		localStorage.setItem('selectedBatch', JSON.stringify(props.selectedBatch))
 	}
-	console.log(props)
 	return (
 		<>
 			<div className="mb-4 shadow-lg rounded-lg overflow-hidden" onClick={routeToDetailPage}>
@@ -32,7 +31,7 @@ const Plancard = (props: IPlanProps) => {
 					</div>
 					<div className="absolute left-0 bottom-0 m-3">
 						<div className="w-10 h-10 rounded-full bg-light-orange flex justify-center items-center">
-							<img src={yoga} alt="yoga" />
+							<img src={props.product_cat_image_url} alt="yoga" />
 						</div>
 					</div>
 				</div>
