@@ -850,192 +850,6 @@
       }
     ]
   },
-      {
-        "product_category": "Kids Yoga",
-        "product_category_name": "Yoga",
-        "product_cat_image_url": "https://www.dropbox.com/s/j4f6s62gcq9bcqk/008-padmasana.svg?dl=0",
-        "product_category_id": "5",
-        "products": [
-          {
-            "product_id": "KMRS01",
-            "product_name": "Online Yoga Classes with R S Yoga School",
-            "enrolled_qty": "50",
-            "Age_Group": "",
-            "product_price": "299",
-            "product_academy": "R S Yoga School",
-            "discounted_price": "149",
-            "product_image_url": "https://www.dropbox.com/s/9hay0se1pab7gkq/rs%20yoga.jpg?dl=0",
-            "product_video_url": "https://www.youtube.com/watch?v=-xHaPxRjbYA",
-            "product_tag": "Filling Fast",
-            "session_duration": "60 mins",
-            "product_description": [
-              "Founded by Ritesh Shah the focus of session is on overall transformation through Asana, Pranayama, Meditation, Detox, Diet & Nutrition and Healing & Counselling.",
-              "Learn the importance of breathing techniques especially pronal breathing, immunity boosting exercises, holding postures, meditations and other techniques."
-            ],
-            "product_disc": [
-              "Founded by Ritesh Shah the focus of session is on overall transformation through Asana, Pranayama, Meditation, Detox, Diet & Nutrition and Healing & Counselling.",
-              "Learn the importance of breathing techniques especially pronal breathing, immunity boosting exercises, holding postures, meditations and other techniques."
-            ],
-            "session_flow": [
-              {
-                "title": "Kriyas",
-                "time": "10 mins"
-              },
-              {
-                "title": "Surya Namaskar",
-                "time": "10 mins"
-              },
-              {
-                "title": "Main Asanas",
-                "time": "25 mins"
-              },
-              {
-                "title": "Pranayama & Shavasana",
-                "time": "15 mins"
-              }
-            ],
-            "product_benefits": [
-              "-Increases breath awareness.",
-              "-Will help achieve physical, mental & spiritual discipline.",
-              "-Strengthens core & muscles.",
-              "-Helps in healthy & organic weight loss.",
-              "-Improves concentration and focus."
-            ],
-            "slots": {
-              "2021-07-17": {
-                "slotTimings": [
-                  {
-                    "startTime": "17:00",
-                    "endTime": "18:00",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-07-21": {
-                "slotTimings": [
-                  {
-                    "startTime": "18:30",
-                    "endTime": "19:30",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-07-24": {
-                "slotTimings": [
-                  {
-                    "startTime": "17:00",
-                    "endTime": "18:00",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-07-28": {
-                "slotTimings": [
-                  {
-                    "startTime": "18:30",
-                    "endTime": "19:30",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-07-31": {
-                "slotTimings": [
-                  {
-                    "startTime": "17:00",
-                    "endTime": "18:00",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-04": {
-                "slotTimings": [
-                  {
-                    "startTime": "18:30",
-                    "endTime": "19:30",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-07": {
-                "slotTimings": [
-                  {
-                    "startTime": "17:00",
-                    "endTime": "18:00",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-11": {
-                "slotTimings": [
-                  {
-                    "startTime": "18:30",
-                    "endTime": "19:30",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-14": {
-                "slotTimings": [
-                  {
-                    "startTime": "18:30",
-                    "endTime": "19:30",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-18": {
-                "slotTimings": [
-                  {
-                    "startTime": "17:00",
-                    "endTime": "18:00",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-21": {
-                "slotTimings": [
-                  {
-                    "startTime": "18:30",
-                    "endTime": "19:30",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-25": {
-                "slotTimings": [
-                  {
-                    "startTime": "17:00",
-                    "endTime": "18:00",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-28": {
-                "slotTimings": [
-                  {
-                    "startTime": "18:30",
-                    "endTime": "19:30",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              }
-            }
-          }
-        ]
-      },
   {
     "product_category": "Material Arts",
     "product_category_name": "Martial Arts",
@@ -1328,9 +1142,430 @@
             ]
           }
         }
+      },
+      {
+        "product_category": "Kids Yoga",
+        "product_category_name": "Yoga",
+        "product_cat_image_url": "https://www.dropbox.com/s/j4f6s62gcq9bcqk/008-padmasana.svg?dl=0",
+        "product_category_id": "5",
+        "products": [
+          {
+            "product_id": "KMRS01",
+            "product_name": "Online Yoga Classes with R S Yoga School",
+            "enrolled_qty": "50",
+            "Age_Group": "",
+            "product_price": "299",
+            "product_academy": "R S Yoga School",
+            "discounted_price": "149",
+            "product_image_url": "https://www.dropbox.com/s/9hay0se1pab7gkq/rs%20yoga.jpg?dl=0",
+            "product_video_url": "https://www.youtube.com/watch?v=-xHaPxRjbYA",
+            "product_tag": "Filling Fast",
+            "session_duration": "60 mins",
+            "product_description": [
+              "Founded by Ritesh Shah the focus of session is on overall transformation through Asana, Pranayama, Meditation, Detox, Diet & Nutrition and Healing & Counselling.",
+              "Learn the importance of breathing techniques especially pronal breathing, immunity boosting exercises, holding postures, meditations and other techniques."
+            ],
+            "product_disc": [
+              "Founded by Ritesh Shah the focus of session is on overall transformation through Asana, Pranayama, Meditation, Detox, Diet & Nutrition and Healing & Counselling.",
+              "Learn the importance of breathing techniques especially pronal breathing, immunity boosting exercises, holding postures, meditations and other techniques."
+            ],
+            "session_flow": [
+              {
+                "title": "Kriyas",
+                "time": "10 mins"
+              },
+              {
+                "title": "Surya Namaskar",
+                "time": "10 mins"
+              },
+              {
+                "title": "Main Asanas",
+                "time": "25 mins"
+              },
+              {
+                "title": "Pranayama & Shavasana",
+                "time": "15 mins"
+              }
+            ],
+            "product_benefits": [
+              "-Increases breath awareness.",
+              "-Will help achieve physical, mental & spiritual discipline.",
+              "-Strengthens core & muscles.",
+              "-Helps in healthy & organic weight loss.",
+              "-Improves concentration and focus."
+            ],
+            "slots": {
+              "2021-07-17": {
+                "slotTimings": [
+                  {
+                    "startTime": "17:00",
+                    "endTime": "18:00",
+                    "duration": 60,
+                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+                  }
+                ]
+              },
+              "2021-07-21": {
+                "slotTimings": [
+                  {
+                    "startTime": "18:30",
+                    "endTime": "19:30",
+                    "duration": 60,
+                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+                  }
+                ]
+              },
+              "2021-07-24": {
+                "slotTimings": [
+                  {
+                    "startTime": "17:00",
+                    "endTime": "18:00",
+                    "duration": 60,
+                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+                  }
+                ]
+              },
+              "2021-07-28": {
+                "slotTimings": [
+                  {
+                    "startTime": "18:30",
+                    "endTime": "19:30",
+                    "duration": 60,
+                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+                  }
+                ]
+              },
+              "2021-07-31": {
+                "slotTimings": [
+                  {
+                    "startTime": "17:00",
+                    "endTime": "18:00",
+                    "duration": 60,
+                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+                  }
+                ]
+              },
+              "2021-08-04": {
+                "slotTimings": [
+                  {
+                    "startTime": "18:30",
+                    "endTime": "19:30",
+                    "duration": 60,
+                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+                  }
+                ]
+              },
+              "2021-08-07": {
+                "slotTimings": [
+                  {
+                    "startTime": "17:00",
+                    "endTime": "18:00",
+                    "duration": 60,
+                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+                  }
+                ]
+              },
+              "2021-08-11": {
+                "slotTimings": [
+                  {
+                    "startTime": "18:30",
+                    "endTime": "19:30",
+                    "duration": 60,
+                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+                  }
+                ]
+              },
+              "2021-08-14": {
+                "slotTimings": [
+                  {
+                    "startTime": "18:30",
+                    "endTime": "19:30",
+                    "duration": 60,
+                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+                  }
+                ]
+              },
+              "2021-08-18": {
+                "slotTimings": [
+                  {
+                    "startTime": "17:00",
+                    "endTime": "18:00",
+                    "duration": 60,
+                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+                  }
+                ]
+              },
+              "2021-08-21": {
+                "slotTimings": [
+                  {
+                    "startTime": "18:30",
+                    "endTime": "19:30",
+                    "duration": 60,
+                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+                  }
+                ]
+              },
+              "2021-08-25": {
+                "slotTimings": [
+                  {
+                    "startTime": "17:00",
+                    "endTime": "18:00",
+                    "duration": 60,
+                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+                  }
+                ]
+              },
+              "2021-08-28": {
+                "slotTimings": [
+                  {
+                    "startTime": "18:30",
+                    "endTime": "19:30",
+                    "duration": 60,
+                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+                  }
+                ]
+              }
+            }
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
+    "product_category": "Football",
+    "product_category_name": "Football",
+    "product_cat_image_url": "https://www.dropbox.com/s/t50f7fcit3ypvpp/010-football.svg?dl=0",
+    "product_category_id": "3",
+    "products": [
+      {
+        "product_id": "KMFF03",
+        "product_name": "Online Football Training with Footie First",
+        "enrolled_qty": "100",
+        "age_group": "3-6",
+        "product_price": "349",
+        "product_academy": "Footie First",
+        "discounted_price": "249",
+        "product_image_url": "https://www.dropbox.com/s/d2p8lybjin6a1jh/footie%20first.jpg?dl=0",
+        "product_video_url": "",
+        "product_tag": "Recommended",
+        "session_duration": "45 mins",
+        "product_description": "Footie First is one of the leading football academies in the country with over 13 centres across Mumbai. The Footie First coaching team comprises of well-trained, licensed coaches who have played at the highest level in local leagues. They provide coaching for over 1,200 children in Mumbai and have also received training from German UEFA-licensed Bundesliga coaches.",
+        "product_disc": [
+          "Footie First is one of the leading football academies in the country with over 13 centres across Mumbai. The Footie First coaching team comprises of well-trained, licensed coaches who have played at the highest level in local leagues. They provide coaching for over 1,200 children in Mumbai and have also received training from German UEFA-licensed Bundesliga coaches."
+        ],
+        "session_flow": [
+          {
+            "title": "Warm up",
+            "time": "10 mins"
+          },
+          {
+            "title": "Technical Ball Mastery",
+            "time": "15 mins"
+          },
+          {
+            "title": "Agility and Footwork Activity",
+            "time": "15 mins"
+          },
+          {
+            "title": "Quiz and Discussions",
+            "time": "10 mins"
+          },
+          {
+            "title": "Cool Down",
+            "time": "10 mins"
+          }
+        ],
+        "product_benefits": [
+          "- Ball Mastery",
+          "- Agility",
+          "- Core Strength and Fitness"
+        ],
+        "slots": {
+          "2021-07-19": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3053/book"
+              }
+            ]
+          },
+          "2021-07-21": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3054/book"
+              }
+            ]
+          },
+          "2021-07-23": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3055/book"
+              }
+            ]
+          },
+          "2021-07-26": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3053/book"
+              }
+            ]
+          },
+          "2021-07-28": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3054/book"
+              }
+            ]
+          },
+          "2021-07-30": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3055/book"
+              }
+            ]
+          },
+          "2021-08-02": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3053/book"
+              }
+            ]
+          },
+          "2021-08-04": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3054/book"
+              }
+            ]
+          },
+          "2021-08-06": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3055/book"
+              }
+            ]
+          },
+          "2021-08-09": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3053/book"
+              }
+            ]
+          },
+          "2021-08-11": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3054/book"
+              }
+            ]
+          },
+          "2021-08-13": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3055/book"
+              }
+            ]
+          },
+          "2021-08-16": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3053/book"
+              }
+            ]
+          },
+          "2021-08-18": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3054/book"
+              }
+            ]
+          },
+          "2021-08-20": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3055/book"
+              }
+            ]
+          },
+          "2021-08-23": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3053/book"
+              }
+            ]
+          },
+          "2021-08-25": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3054/book"
+              }
+            ]
+          },
+          "2021-08-27": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "16:40",
+                "duration": 40,
+                "link": "https://www.khelomore.com/sports-academies/footie-first-online-coaching/f62ae628-f60d-465a-be4a-a8eda80427d3/3055/book"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
     "product_category": "Football",
     "product_category_name": "Football",
     "product_cat_image_url": "https://www.dropbox.com/s/t50f7fcit3ypvpp/010-football.svg?dl=0",
@@ -2230,8 +2465,6 @@
           "-Raises IQ Level",
           "-Promotes Brain Growth."
         ],
-        "slots":{
-
         "2021-07-19": {
           "slotTimings": [
             {
@@ -2839,7 +3072,6 @@
               }
             ]
           }
-        }
         }
       }
     ]

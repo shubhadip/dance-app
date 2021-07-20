@@ -107,7 +107,7 @@ export const getUniqueDateOptions = (data?: any) => {
     slotItems = [...slotItems, ...(Object.keys(slotItem.slots))]
   });
   const uniques = slotItems.filter((v: any, i: any, a: any) => a.indexOf(v) === i);
-  return uniques.map((item: any) => {
+  return (uniques || []).map((item: any) => {
     return {
       value: item,
       label: item
