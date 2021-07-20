@@ -22,6 +22,7 @@ export const App = () => {
     const [products, setProducts] = useState([]);
     const [categories, setCategories] = useState([]);
     const [filteredProducts, setFilteredProducts] = useState([]);
+    const [isLoading, setLoading] = useState(true);
     const [selectedDate, setDate] = useState({
         value: format(new Date(), yyyyMMdd),
         label: format(new Date(), yyyyMMdd),
@@ -37,6 +38,7 @@ export const App = () => {
             .then((response) => {
                 setCategories(getAllCategories(response));
                 setProducts(response);
+                setLoading(false);
             });
     }, []);
 
@@ -149,10 +151,18 @@ export const App = () => {
 								return <Plancard {...item} key={index} selectedDate={selectedDate} selectedSlot={selectedSlot} />;
 							}
 						)
-						: <div className="px-10 py-5 flex flex-col items-center">
-                            <img src={noResult} alt="yoga" className="w-40 mb-6" />
-                            <span className="font-bold opacity-50">No Result Found</span>
-                        </div> }
+						: (
+                            isLoading ? <div className="flex justify-center py-32 ">
+                                <div className="loader loader-1">
+                                <div className="loader-outter"></div>
+                                <div className="loader-inner"></div>
+                            </div>
+                            </div>:
+                            <div className="px-10 py-5 flex flex-col items-center">
+                                <img src={noResult} alt="yoga" className="w-40 mb-6" />
+                                <span className="font-bold opacity-50">No Result Found</span>
+                            </div>
+                        ) }
 				</div>
 			</div>
 		</div>
