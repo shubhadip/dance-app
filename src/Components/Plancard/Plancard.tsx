@@ -50,7 +50,7 @@ const Plancard = (props: IPlanProps) => {
 						</div>
 						<div>
 							<div className="text-xs opacity-60 text-right tracking-wide">
-								Fees
+								Price
 							</div>
 							<span className="font-bold text-15 mr-2 opacity-30 line-through">
 								₹ {props.product_price}
