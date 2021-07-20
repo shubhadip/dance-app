@@ -1,4 +1,4 @@
-import { isToday, subDays } from "date-fns";
+import { addDays, format, isToday, subDays } from "date-fns";
 import { timeSlotMapping } from "./constants"
 
 export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: any, selectedCategory: any, selectedSort: any) => {
@@ -31,8 +31,39 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
       prod = [...prod, ...catItem.products]
     })
   }
-  
-  if (selectedDate && !selectedSlot) {
+  if (!selectedCategory && (!selectedDate && !selectedSlot)) {
+    let tempAllProducts: any = []
+    prod.forEach((p: any)=>{
+      p.selectedBatch = null;
+      for (let index = 1; index <= 7; index++) {
+        const tempDate = format(addDays(new Date(), index), 'yyyy-MM-dd')
+        p.selectedBatch = null;
+        const temp = p.slots[tempDate] && p.slots[tempDate].slotTimings 
+        if(temp){
+          const massageddata = temp.map((t: any) => {
+            const startTime = t.startTime.split(':')
+            const hr = `0${startTime[0]}`.slice(-2)
+            const min = `0${startTime[1]}`.slice(-2)
+            const endHr = t.endTime.split(':')[0]
+            const startTimeStamp = new Date(`${tempDate} ${hr}:${min}:00`).getTime()
+            const slotText = `${t.startTime} ${Number(hr) > 12 && Number(hr) < 24 ? 'PM' :'AM'} - ${t.endTime} ${Number(endHr) > 12 && Number(endHr) < 24 ? 'PM' :'AM'}`
+            const currentTimestamp = new Date(`${tempDate} ${isToday(new Date(tempDate)) ? (new Date()).getHours() : '00'}:00:00`).getTime()
+            return {
+              ...t,
+              date: format(new Date(tempDate), 'd LLL'),
+              startTimeStamp,
+              slotText,
+              isValid: startTimeStamp > currentTimestamp
+            }
+          })
+          p.selectedBatch = massageddata.filter((a:any) => a.isValid).sort((a:any, b:any) => a.startTimeStamp - b.startTimeStamp)[0];
+          p.slots[tempDate].slotTimings = massageddata
+          tempAllProducts =[...tempAllProducts, {...p}];
+        }
+      }
+    })
+    prod = [...tempAllProducts]
+  }else if (selectedDate && !selectedSlot) {
     prod.forEach((p: any)=>{
       p.selectedBatch = null;
       const temp = p.slots[selectedDate.value] && p.slots[selectedDate.value].slotTimings 
