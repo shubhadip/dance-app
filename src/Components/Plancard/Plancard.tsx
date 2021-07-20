@@ -25,18 +25,18 @@ const Plancard = (props: IPlanProps) => {
 							<img src={hot} alt="hot" className="mr-1" />
 							<span className="font-bold capitalize">{props?.product_tag}</span>
 						</span>
-						<span className="py-1 font-bold px-2 font-medium bg-orange text-white uppercase text-xs rounded">
+						<span className="py-1 font-bold px-2 bg-orange text-white uppercase text-xs rounded">
 							{props.enrolled_qty} Enrolled
 						</span>
 					</div>
 					<div className="absolute left-0 bottom-0 m-3">
-						<div className="w-10 h-10 rounded-full bg-light-orange flex justify-center items-center">
+						<div className="w-10 p-2 h-10 rounded-full bg-light-orange flex justify-center items-center">
 							<img src={props.product_cat_image_url} alt="yoga" />
 						</div>
 					</div>
 				</div>
 				<div className="p-4">
-					<div className="text-lg font-bold text-15">
+					<div className="text-lg font-bold text-15 overflow-hidden whitespace-nowrap overflow-ellipsis">
 						{props.product_name}
 					</div>
 					<div className="flex justify-between font-medium mt-3">

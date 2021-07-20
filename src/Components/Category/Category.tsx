@@ -43,7 +43,7 @@ export const Category = (props: any) => {
                                 className=" absolute w-9 img-white"
                             />
                         </div>
-                        <span className="text-xs mt-2 cat-box-name capitalize">
+                        <span className="text-xs mt-2 cat-box-name capitalize whitespace-nowrap overflow-hidden">
                             {citem.name}
                         </span>
                     </div>
