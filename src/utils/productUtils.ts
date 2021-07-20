@@ -137,7 +137,7 @@ export const getUniqueDateOptions = (data?: any) => {
   .filter((item: any) => {
     return new Date(item.value) >= subDays(new Date(), 1);
   })
-  .filter((item:any, index: number) => {
+  .filter((item: any, index: number) => {
     return index < 7;
   })
   
