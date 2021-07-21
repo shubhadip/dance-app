@@ -24,7 +24,10 @@ export const App = () => {
     const [categories, setCategories] = useState([]);
     const [filteredProducts, setFilteredProducts] = useState([]);
     const [isLoading, setLoading] = useState(true);
-    const [selectedDate, setDate] = useState<any>(null);
+    const [selectedDate, setDate] = useState<any>({
+        value: format(new Date(), yyyyMMdd),
+        label: format(new Date(), yyyyMMdd), 
+    });
     const [selectedSlot, setSlot] = useState(null);
     const [selectedSort, setSort] = useState(null);
     const [selectedCategory, setCategory] = useState<ICategory | null>(null);
@@ -88,10 +91,9 @@ export const App = () => {
     const handleCategoryChange = (data: any) => {
         setCategory(data);
         setSlot(null);
-        if (!data) {
+        if (data) {
             setDate(null);
-        }
-        if(!selectedDate){
+        }else{
             setDate({
                 value: format(new Date(), yyyyMMdd),
                 label: format(new Date(), yyyyMMdd),

@@ -31,7 +31,7 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
       prod = [...prod, ...catItem.products]
     })
   }
-  if (!selectedCategory && !selectedDate) {
+  if (selectedCategory && !selectedDate) {
     let tempAllProducts: any = []
     prod.forEach((p: any)=>{
       p.selectedBatch = null;
