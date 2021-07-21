@@ -213,6 +213,15 @@ export const getSortOptions = () => {
 export const getSelectedProduct = (data: any, id: string) => {
   let prod: any = [];
   data.forEach((catItem: any) => {
+    catItem.products.map((p: any)=>{
+      p["product_category"] = catItem.product_category
+      p["product_category_name"]= catItem.product_category_name
+      p["product_cat_image_url"]= catItem.product_cat_image_url
+      p["product_category_id"]= catItem.product_category_id
+      return {
+        ...p
+      }
+    })
     prod = [...prod, ...catItem.products]
   })
   let p = prod.filter((p: any) => p.product_id === id)[0]

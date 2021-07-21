@@ -36,7 +36,6 @@ export function PlanDetails(props: any) {
     const redirectToPage = (): void => {
         window.location.href = selectedProduct.selectedBatch.link;
     };
-
     return (
         <>
             <div className="pb-14 appearme">
@@ -60,7 +59,7 @@ export function PlanDetails(props: any) {
                 <div className="px-4">
                     <div className="w-full -mt-5 relative">
                         <div className="w-10 h-10 rounded-full shadow-md bg-orange flex justify-center items-center">
-                            <img src={yoga} alt="yoga" className="w-7" />
+                            <img src={selectedProduct?.product_cat_image_url} alt="yoga" className="w-7" />
                         </div>
                     </div>
                     <div className="mt-2">

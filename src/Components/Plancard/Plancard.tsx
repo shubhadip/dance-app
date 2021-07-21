@@ -1,7 +1,6 @@
 import { IPlanProps } from "../../shared/interfaces";
 import { useHistory } from "react-router";
 import hot from "./../../assets/images/hot.svg";
-// import yoga from "./../../assets/images/yoga-white.svg";
 
 const Plancard = (props: IPlanProps) => {
 	let history = useHistory();
@@ -31,7 +30,7 @@ const Plancard = (props: IPlanProps) => {
 					</div>
 					<div className="absolute left-0 bottom-0 m-3">
 						<div className="w-10 p-2 h-10 rounded-full bg-light-orange flex justify-center items-center">
-							<img src={props.product_cat_image_url} alt="yoga" />
+							<img src={props.product_cat_image_url} alt={props.product_cat_image_url} />
 						</div>
 					</div>
 				</div>
