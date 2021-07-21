@@ -42,7 +42,7 @@ export function PlanDetails(props: any) {
             <div className="pb-14 appearme">
                 <div className="relative bg-gray-200 h-48 overflow-hidden">
                     <img
-                        src="https://picsum.photos/200/300"
+                        src={selectedProduct?.product_image_url}
                         className="object-fill w-full"
                     />
                     <div className=" absolute left-0 top-0 w-full p-4 flex justify-between">
