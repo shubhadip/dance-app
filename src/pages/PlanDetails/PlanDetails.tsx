@@ -40,10 +40,10 @@ export function PlanDetails(props: any) {
         <>
             <div className="pb-14 appearme">
                 <div className="relative bg-gray-200 h-48 overflow-hidden">
-                    <img
+                    {selectedProduct?.product_image_url ? <img
                         src={selectedProduct?.product_image_url}
                         className="object-fill w-full"
-                    />
+                    /> : null}
                     <div className=" absolute left-0 top-0 w-full p-4 flex justify-between">
                         <div
                             className="w-8 flex justify-center items-center rounded-full h-8 bg-white"
