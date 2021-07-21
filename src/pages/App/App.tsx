@@ -15,18 +15,19 @@ import {
 import DropDown from "../../Components/DropDown/DropDown";
 import { ICategory, IPlanProps } from "../../shared/interfaces";
 import { Category } from "../../Components/Category/Category";
+import { addDays } from "date-fns";
 
 export const App = () => {
     const slotOptions = getSlotsForDropDown();
     const sortOptions = getSortOptions();
-
+    const activeHour = (new Date()).getHours();
     const [products, setProducts] = useState([]);
     const [categories, setCategories] = useState([]);
     const [filteredProducts, setFilteredProducts] = useState([]);
     const [isLoading, setLoading] = useState(true);
     const [selectedDate, setDate] = useState<any>({
-        value: format(new Date(), yyyyMMdd),
-        label: format(new Date(), yyyyMMdd), 
+        value: format(activeHour >=20 ? addDays(new Date(), 1) : new Date(), yyyyMMdd),
+        label: format(activeHour >=20 ? addDays(new Date(), 1) : new Date(), yyyyMMdd), 
     });
     const [selectedSlot, setSlot] = useState(null);
     const [selectedSort, setSort] = useState(null);
