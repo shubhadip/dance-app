@@ -135,6 +135,10 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
       }
     })
   }
+  prod = prod.filter((p: any) => !!p.selectedBatch)
+  prod.sort((a: any, b: any) => {
+    return a?.selectedBatch?.startTimeStamp - b?.selectedBatch.startTimeStamp
+  })
   if (selectedSort) {
     prod.sort((a: any, b: any) => {
       if (selectedSort.value === 0) {
@@ -144,7 +148,6 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
       }
     })
   }
-  prod = prod.filter((p: any) => !!p.selectedBatch)
   return prod;
 }
 
