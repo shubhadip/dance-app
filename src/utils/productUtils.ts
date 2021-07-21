@@ -31,7 +31,7 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
       prod = [...prod, ...catItem.products]
     })
   }
-  if (!selectedCategory && (!selectedDate && !selectedSlot)) {
+  if (!selectedCategory && !selectedDate) {
     let tempAllProducts: any = []
     prod.forEach((p: any)=>{
       p.selectedBatch = null;
@@ -39,6 +39,13 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
         const tempDate = format(addDays(new Date(), index), 'yyyy-MM-dd')
         p.selectedBatch = null;
         const temp = p.slots[tempDate] && p.slots[tempDate].slotTimings 
+        
+        const slotLength = (timeSlotMapping as any)[selectedSlot?.value]
+        const minslotTime = slotLength ? (timeSlotMapping as any)[selectedSlot?.value][0]: null
+        const maxslotTime = slotLength ? (timeSlotMapping as any)[selectedSlot?.value][slotLength.length-1]: null
+        const minSlotTimeStamp = minslotTime ? new Date(`${tempDate} ${minslotTime}:00:00`).getTime(): null
+        const maxSlotTimeStamp = maxslotTime ? new Date(`${tempDate} ${maxslotTime}:00:00`).getTime(): null
+        
         if(temp){
           const massageddata = temp.map((t: any) => {
             const startTime = t.startTime.split(':')
@@ -53,7 +60,7 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
               date: format(new Date(tempDate), 'd LLL'),
               startTimeStamp,
               slotText,
-              isValid: startTimeStamp > currentTimestamp
+              isValid: slotLength ? startTimeStamp > (minSlotTimeStamp as number) && startTimeStamp < (maxSlotTimeStamp as number) : startTimeStamp > currentTimestamp
             }
           })
           p.selectedBatch = massageddata.filter((a:any) => a.isValid).sort((a:any, b:any) => a.startTimeStamp - b.startTimeStamp)[0];
