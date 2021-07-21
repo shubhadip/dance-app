@@ -77,6 +77,12 @@ export const App = () => {
         if(!data){
             setDate(null);
         }
+        if(!selectedDate){
+            setDate({
+                value: format(new Date(), yyyyMMdd),
+                label: format(new Date(), yyyyMMdd),
+            })
+        }
     };
 
     const dateFormatJSX = () => {

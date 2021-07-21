@@ -78,6 +78,7 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
           const currentTimestamp = new Date(`${selectedDate.value} ${isToday(new Date(selectedDate.value)) ? (new Date()).getHours() : '00'}:00:00`).getTime()
           return {
             ...t,
+            date: format(new Date(selectedDate.value), 'd LLL'),
             startTimeStamp,
             slotText,
             isValid: startTimeStamp > currentTimestamp
@@ -107,6 +108,7 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
           if(isToday(new Date(selectedDate.value))){
             return {
               ...t,
+              date: format(new Date(selectedDate.value), 'd LLL'),
               startTimeStamp,
               slotText,
               isValid: (startTimeStamp > minSlotTimeStamp && startTimeStamp < maxSlotTimeStamp) && (startTimeStamp > (new Date()).getTime())
@@ -114,6 +116,7 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
           }else{
             return {
               ...t,
+              date: format(new Date(selectedDate.value), 'd LLL'),
               startTimeStamp,
               slotText,
               isValid: startTimeStamp > minSlotTimeStamp && startTimeStamp < maxSlotTimeStamp
