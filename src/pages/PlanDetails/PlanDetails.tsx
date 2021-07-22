@@ -18,7 +18,8 @@ export function PlanDetails(props: any) {
         history.push("/");
     }
     useEffect(() => {
-        fetch("../products.json")
+        // fetch("../pages/pay-per-session/products.json")
+        fetch(`${process.env.PUBLIC_URL}/products.json`)
             .then((data) => data.json())
             .then((response) => {
                 setProduct(getSelectedProduct(response, urlData.id));

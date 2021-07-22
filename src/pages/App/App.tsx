@@ -35,7 +35,8 @@ export const App = () => {
 
     useEffect(() => {
         localStorage.removeItem("selectedBatch");
-        fetch("./products.json")
+        // fetch('http://localhost:3000/pages/pay-per-sesssion/products.json')
+        fetch(`${process.env.PUBLIC_URL}/products.json`)
             .then((data) => data.json())
             .then((response) => {
                 setCategories(getAllCategories(response));
