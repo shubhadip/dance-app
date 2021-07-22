@@ -1,5 +1,6 @@
 import App from "../pages/App/App";
 import { PlanDetails } from "../pages/PlanDetails/PlanDetails";
+import  NotFound  from "../pages/NotFound/NotFound";
 import { IRoute, RouteName } from "./interfaces";
 
 export const routes: IRoute[] = [
@@ -15,4 +16,10 @@ export const routes: IRoute[] = [
     path: "/plandetails/:id",
     exact: true
   },
+  {
+    component: NotFound,
+    routeName: RouteName.PlanDetails,
+    path: "*",
+    exact: false
+  }
 ];

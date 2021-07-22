@@ -1,7 +1,8 @@
 export enum RouteName {
   About = 'about',
   App = 'app',
-  PlanDetails = 'plandetails'
+  PlanDetails = 'plandetails',
+  NotFound = 'notfound'
 }
 
 export interface IRoute {
@@ -15,4 +16,5 @@ export interface IAllRoutes {
   ABOUT: IRoute;
   APP: IRoute;
   PLANDETAILS: IRoute
+  NOTFOUND: IRoute
 }
