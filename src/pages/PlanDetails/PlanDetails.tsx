@@ -18,8 +18,9 @@ export function PlanDetails(props: any) {
         history.push("/");
     }
     useEffect(() => {
-        // fetch("../pages/pay-per-session/products.json")
-        fetch(`${process.env.PUBLIC_URL}/products.json`)
+        const domain = process.env.NODE_ENV !== 'production' ? 'http://localhost:8080' : 'https://khelomore.com';
+        const url = `${domain}${process.env.PUBLIC_URL}/products.json`
+        fetch(url)
             .then((data) => data.json())
             .then((response) => {
                 setProduct(getSelectedProduct(response, urlData.id));

@@ -35,14 +35,20 @@ export const App = () => {
 
     useEffect(() => {
         localStorage.removeItem("selectedBatch");
-        // fetch('http://localhost:3000/pages/pay-per-sesssion/products.json')
-        fetch(`${process.env.PUBLIC_URL}/products.json`)
+        const domain = process.env.NODE_ENV !== 'production' ? 'http://localhost:8080' : 'https://khelomore.com';
+        const url = `${domain}${process.env.PUBLIC_URL}/products.json`
+        console.log(url);
+        fetch(url)
             .then((data) => data.json())
             .then((response) => {
+                debugger
                 setCategories(getAllCategories(response));
                 setProducts(response);
                 setLoading(false);
-            });
+            })
+            .catch((e)=>{
+                console.log(e)
+            })
     }, []);
 
     useEffect(() => {
