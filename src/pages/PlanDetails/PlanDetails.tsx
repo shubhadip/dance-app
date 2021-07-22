@@ -18,7 +18,7 @@ export function PlanDetails(props: any) {
         history.push("/");
     }
     useEffect(() => {
-        const domain = process.env.NODE_ENV !== 'production' ? 'http://localhost:8080' : 'https://khelomore.com';
+        const domain = process.env.NODE_ENV !== 'production' ? 'http://localhost:3000' : 'https://khelomore.com';
         const url = `${domain}${process.env.PUBLIC_URL}/products.json`
         fetch(url)
             .then((data) => data.json())
