@@ -1,5 +1,5 @@
-// import yoga from "./../../assets/images/yoga.svg";
-// import yogaWhite from "./../../assets/images/yoga-white.svg";
+import allBlack from "./../../assets/images/all-black-new.svg";
+import allWhite from "./../../assets/images/all-white-new.svg";
 
 export const Category = (props: any) => {
     const { categories, selectedCategory, handleCategoryChange } = props;
@@ -13,7 +13,18 @@ export const Category = (props: any) => {
                 key={"all"}
                 onClick={() => handleCategoryChange(null)}
             >
-                <div className="cat-box-img shadow rounded-full w-14 h-14"></div>
+                <div className="cat-box-img shadow rounded-full w-14 h-14 relative">
+                <img
+                    src={allBlack}
+                    alt="yoga"
+                    className=" absolute w-9 img-black"
+                />
+                <img
+                    src={allWhite}
+                    alt="yoga"
+                    className=" absolute w-9 img-white"
+                />
+                </div>
                 <span className="text-xs mt-2 cat-box-name capitalize">
                     All
                 </span>
