@@ -125,7 +125,7 @@ export const App = () => {
                     <div className="w-4 h-4">
                         <img src={leftArrow} alt="yoga" />
                     </div>
-                    <h4 className="font-bold text-lg">Hot Picked For you</h4>
+                    <h4 className="font-bold text-lg">Online sessions for kids</h4>
                     <div></div>
                 </div>
                 <Category

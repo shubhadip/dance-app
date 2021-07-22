@@ -195,6 +195,1326 @@
             ]
           }
         }
+      },
+      {
+        "product_id": "KMKL01",
+        "product_name": "Interactive Online Fitness Sessions with Kleinetics Fitness",
+        "enrolled_qty": "100",
+        "age_group": "4-6",
+        "product_price": "249",
+        "product_academy": "Kleinetics",
+        "discounted_price": "149",
+        "product_image_url": "https://www.dropbox.com/s/sia6yrthk09cknp/kleinetics.jpg?dl=0",
+        "product_video_url": "https://www.youtube.com/watch?v=-Epv0m4uwCI",
+        "product_tag": "Recommended",
+        "session_duration": "45 mins",
+        "product_description": "The program focuses on fitness games that help kids stay engaged and entertained. <br> Diverse styles and disciplines.Gamified workouts.Functional Fitness.Dance. Fusion Yoga.HIIT and many more",
+        "product_disc": [
+          "The program focuses on fitness games that help kids stay engaged and entertained. Diverse styles and disciplines",
+          "Gamified workouts",
+          "Functional Fitness",
+          "Dance",
+          "Fusion Yoga",
+          "HIIT and many more"
+        ],
+        "session_flow": [
+          {
+            "title": "Warm Up Game ",
+            "time": "5 mins"
+          },
+          {
+            "title": "Warm Up ",
+            "time": "5 mins"
+          },
+          {
+            "title": "Main Workout ",
+            "time": "20 mins"
+          },
+          {
+            "title": "Fitness Game ",
+            "time": "10 mins"
+          },
+          {
+            "title": "Cool Down ",
+            "time": "5 min"
+          }
+        ],
+        "product_benefits": [
+          "Will help achieve physical, mental & spiritual discipline. ",
+          "Strengthens core & muscles",
+          "Improves muscle flexibility",
+          "Builds endurance"
+        ],
+        "slots": {
+          "2021-07-19": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3016/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3018/book"
+              }
+            ]
+          },
+          "2021-07-20": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3020/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3022/book"
+              }
+            ]
+          },
+          "2021-07-21": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3024/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3027/book"
+              }
+            ]
+          },
+          "2021-07-22": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3029/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3031/book"
+              }
+            ]
+          },
+          "2021-07-23": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3033/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3035/book"
+              }
+            ]
+          },
+          "2021-07-24": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3037/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3039/book"
+              }
+            ]
+          },
+          "2021-07-26": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3016/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3018/book"
+              }
+            ]
+          },
+          "2021-07-27": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3020/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3022/book"
+              }
+            ]
+          },
+          "2021-07-28": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3024/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3027/book"
+              }
+            ]
+          },
+          "2021-07-29": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3029/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3031/book"
+              }
+            ]
+          },
+          "2021-07-30": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3033/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3035/book"
+              }
+            ]
+          },
+          "2021-07-31": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3037/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3039/book"
+              }
+            ]
+          },
+          "2021-08-02": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3016/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3018/book"
+              }
+            ]
+          },
+          "2021-08-03": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3020/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3022/book"
+              }
+            ]
+          },
+          "2021-08-04": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3024/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3027/book"
+              }
+            ]
+          },
+          "2021-08-05": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3029/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3031/book"
+              }
+            ]
+          },
+          "2021-08-06": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3033/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3035/book"
+              }
+            ]
+          },
+          "2021-08-07": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3037/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3039/book"
+              }
+            ]
+          },
+          "2021-08-09": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3016/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3018/book"
+              }
+            ]
+          },
+          "2021-08-10": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3020/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3022/book"
+              }
+            ]
+          },
+          "2021-08-11": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3024/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3027/book"
+              }
+            ]
+          },
+          "2021-08-12": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3029/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3031/book"
+              }
+            ]
+          },
+          "2021-08-13": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3033/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3035/book"
+              }
+            ]
+          },
+          "2021-08-14": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3037/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3039/book"
+              }
+            ]
+          },
+          "2021-08-16": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3016/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3018/book"
+              }
+            ]
+          },
+          "2021-08-17": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3020/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3022/book"
+              }
+            ]
+          },
+          "2021-08-18": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3024/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3027/book"
+              }
+            ]
+          },
+          "2021-08-19": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3029/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3031/book"
+              }
+            ]
+          },
+          "2021-08-20": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3033/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3035/book"
+              }
+            ]
+          },
+          "2021-08-21": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3037/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3039/book"
+              }
+            ]
+          },
+          "2021-08-23": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3016/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3018/book"
+              }
+            ]
+          },
+          "2021-08-24": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3020/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3022/book"
+              }
+            ]
+          },
+          "2021-08-25": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3024/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3027/book"
+              }
+            ]
+          },
+          "2021-08-26": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3029/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3031/book"
+              }
+            ]
+          },
+          "2021-08-27": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3033/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3035/book"
+              }
+            ]
+          },
+          "2021-08-28": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3037/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3039/book"
+              }
+            ]
+          },
+          "2021-08-30": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3016/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3018/book"
+              }
+            ]
+          },
+          "2021-08-31": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3020/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3022/book"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "product_id": "KMKL02",
+        "product_name": "Interactive Online Fitness Sessions with Kleinetics Fitness",
+        "enrolled_qty": "100",
+        "age_group": "7-14",
+        "product_price": "249",
+        "product_academy": "Kleinetics",
+        "discounted_price": "149",
+        "product_image_url": "https://www.dropbox.com/s/sia6yrthk09cknp/kleinetics.jpg?dl=0",
+        "product_video_url": "https://www.youtube.com/watch?v=-Epv0m4uwCI",
+        "product_tag": "Recommended",
+        "session_duration": "45 mins",
+        "product_description": "The program focuses on fitness games that help kids stay engaged and entertained. <br> Diverse styles and disciplines Gamified workouts Functional Fitness Dance Fusion Yoga HIIT and many more",
+        "product_disc": [
+          "The program focuses on fitness games that help kids stay engaged and entertained. Diverse styles and disciplines",
+          "Gamified workouts",
+          "Functional Fitness",
+          "Dance",
+          "Fusion Yoga",
+          "HIIT and many more"
+        ],
+        "session_flow": [
+          {
+            "title": "Warm Up Game ",
+            "time": "5 mins"
+          },
+          {
+            "title": "Warm Up ",
+            "time": "5 mins"
+          },
+          {
+            "title": "Main Workout ",
+            "time": "20 mins"
+          },
+          {
+            "title": "Fitness Game ",
+            "time": "10 mins"
+          },
+          {
+            "title": "Cool Down ",
+            "time": "5 min"
+          }
+        ],
+        "product_benefits": [
+          "Will help achieve physical, mental & spiritual discipline. ",
+          "Strengthens core & muscles",
+          "Improves muscle flexibility",
+          "Builds endurance"
+        ],
+        "slots": {
+          "2021-07-19": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3017/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3019/book"
+              }
+            ]
+          },
+          "2021-07-20": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3021/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3023/book"
+              }
+            ]
+          },
+          "2021-07-21": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3026/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3028/book"
+              }
+            ]
+          },
+          "2021-07-22": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3030/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3032/book"
+              }
+            ]
+          },
+          "2021-07-23": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3034/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3036/book"
+              }
+            ]
+          },
+          "2021-07-24": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3038/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3040/book"
+              }
+            ]
+          },
+          "2021-07-26": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3017/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3019/book"
+              }
+            ]
+          },
+          "2021-07-27": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3021/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3023/book"
+              }
+            ]
+          },
+          "2021-07-28": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3026/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3028/book"
+              }
+            ]
+          },
+          "2021-07-29": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3030/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3032/book"
+              }
+            ]
+          },
+          "2021-07-30": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3034/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3036/book"
+              }
+            ]
+          },
+          "2021-07-31": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3038/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3040/book"
+              }
+            ]
+          },
+          "2021-08-02": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3017/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3019/book"
+              }
+            ]
+          },
+          "2021-08-03": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3021/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3023/book"
+              }
+            ]
+          },
+          "2021-08-04": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3026/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3028/book"
+              }
+            ]
+          },
+          "2021-08-05": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3030/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3032/book"
+              }
+            ]
+          },
+          "2021-08-06": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3034/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3036/book"
+              }
+            ]
+          },
+          "2021-08-07": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3038/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3040/book"
+              }
+            ]
+          },
+          "2021-08-09": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3017/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3019/book"
+              }
+            ]
+          },
+          "2021-08-10": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3021/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3023/book"
+              }
+            ]
+          },
+          "2021-08-11": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3026/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3028/book"
+              }
+            ]
+          },
+          "2021-08-12": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3030/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3032/book"
+              }
+            ]
+          },
+          "2021-08-13": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3034/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3036/book"
+              }
+            ]
+          },
+          "2021-08-14": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3038/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3040/book"
+              }
+            ]
+          },
+          "2021-08-16": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3017/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3019/book"
+              }
+            ]
+          },
+          "2021-08-17": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3021/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3023/book"
+              }
+            ]
+          },
+          "2021-08-18": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3026/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3028/book"
+              }
+            ]
+          },
+          "2021-08-19": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3030/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3032/book"
+              }
+            ]
+          },
+          "2021-08-20": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3034/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3036/book"
+              }
+            ]
+          },
+          "2021-08-21": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3038/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3040/book"
+              }
+            ]
+          },
+          "2021-08-23": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3017/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3019/book"
+              }
+            ]
+          },
+          "2021-08-24": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3021/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3023/book"
+              }
+            ]
+          },
+          "2021-08-25": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3026/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3028/book"
+              }
+            ]
+          },
+          "2021-08-26": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3030/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3032/book"
+              }
+            ]
+          },
+          "2021-08-27": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3034/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3036/book"
+              }
+            ]
+          },
+          "2021-08-28": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3038/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3040/book"
+              }
+            ]
+          },
+          "2021-08-30": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3017/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3019/book"
+              }
+            ]
+          },
+          "2021-08-31": {
+            "slotTimings": [
+              {
+                "startTime": "16:00",
+                "endTime": "17:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3021/book"
+              },
+              {
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/pay-on-the-go/ac54e0ba-c9c3-4598-ac91-3d294c174b01/3023/book"
+              }
+            ]
+          }
+        }
       }
     ]
   },
@@ -862,7 +2182,7 @@
           }
         }
       },
-       {
+      {
         "product_id": "KMFF04",
         "product_name": "Online Football Training with Footie First",
         "enrolled_qty": "100",
@@ -1668,193 +2988,192 @@
       }
     ]
   },
- 
+  {
+    "product_category": "Kids Yoga",
+    "product_category_name": "Yoga",
+    "product_cat_image_url": "https://www.dropbox.com/s/j4f6s62gcq9bcqk/008-padmasana.svg?raw=1",
+    "product_category_id": "5",
+    "products": [
       {
-        "product_category": "Kids Yoga",
-        "product_category_name": "Yoga",
-        "product_cat_image_url": "https://www.dropbox.com/s/j4f6s62gcq9bcqk/008-padmasana.svg?raw=1",
-        "product_category_id": "5",
-        "products": [
+        "product_id": "KMRS01",
+        "product_name": "Online Yoga Classes with R S Yoga School",
+        "enrolled_qty": "50",
+        "Age_Group": "",
+        "product_price": "299",
+        "product_academy": "R S Yoga School",
+        "discounted_price": "149",
+        "product_image_url": "https://www.dropbox.com/s/9hay0se1pab7gkq/rs%20yoga.jpg?raw=1",
+        "product_video_url": "https://www.youtube.com/watch?v=-xHaPxRjbYA",
+        "product_tag": "Filling Fast",
+        "session_duration": "60 mins",
+        "product_description": [
+          "Founded by Ritesh Shah the focus of session is on overall transformation through Asana, Pranayama, Meditation, Detox, Diet & Nutrition and Healing & Counselling.",
+          "Learn the importance of breathing techniques especially pronal breathing, immunity boosting exercises, holding postures, meditations and other techniques."
+        ],
+        "product_disc": [
+          "Founded by Ritesh Shah the focus of session is on overall transformation through Asana, Pranayama, Meditation, Detox, Diet & Nutrition and Healing & Counselling.",
+          "Learn the importance of breathing techniques especially pronal breathing, immunity boosting exercises, holding postures, meditations and other techniques."
+        ],
+        "session_flow": [
           {
-            "product_id": "KMRS01",
-            "product_name": "Online Yoga Classes with R S Yoga School",
-            "enrolled_qty": "50",
-            "Age_Group": "",
-            "product_price": "299",
-            "product_academy": "R S Yoga School",
-            "discounted_price": "149",
-            "product_image_url": "https://www.dropbox.com/s/9hay0se1pab7gkq/rs%20yoga.jpg?raw=1",
-            "product_video_url": "https://www.youtube.com/watch?v=-xHaPxRjbYA",
-            "product_tag": "Filling Fast",
-            "session_duration": "60 mins",
-            "product_description": [
-              "Founded by Ritesh Shah the focus of session is on overall transformation through Asana, Pranayama, Meditation, Detox, Diet & Nutrition and Healing & Counselling.",
-              "Learn the importance of breathing techniques especially pronal breathing, immunity boosting exercises, holding postures, meditations and other techniques."
-            ],
-            "product_disc": [
-              "Founded by Ritesh Shah the focus of session is on overall transformation through Asana, Pranayama, Meditation, Detox, Diet & Nutrition and Healing & Counselling.",
-              "Learn the importance of breathing techniques especially pronal breathing, immunity boosting exercises, holding postures, meditations and other techniques."
-            ],
-            "session_flow": [
-              {
-                "title": "Kriyas",
-                "time": "10 mins"
-              },
-              {
-                "title": "Surya Namaskar",
-                "time": "10 mins"
-              },
-              {
-                "title": "Main Asanas",
-                "time": "25 mins"
-              },
-              {
-                "title": "Pranayama & Shavasana",
-                "time": "15 mins"
-              }
-            ],
-            "product_benefits": [
-              "-Increases breath awareness.",
-              "-Will help achieve physical, mental & spiritual discipline.",
-              "-Strengthens core & muscles.",
-              "-Helps in healthy & organic weight loss.",
-              "-Improves concentration and focus."
-            ],
-            "slots": {
-              "2021-07-17": {
-                "slotTimings": [
-                  {
-                    "startTime": "17:00",
-                    "endTime": "18:00",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-07-21": {
-                "slotTimings": [
-                  {
-                    "startTime": "18:30",
-                    "endTime": "19:30",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-07-24": {
-                "slotTimings": [
-                  {
-                    "startTime": "17:00",
-                    "endTime": "18:00",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-07-28": {
-                "slotTimings": [
-                  {
-                    "startTime": "18:30",
-                    "endTime": "19:30",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-07-31": {
-                "slotTimings": [
-                  {
-                    "startTime": "17:00",
-                    "endTime": "18:00",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-04": {
-                "slotTimings": [
-                  {
-                    "startTime": "18:30",
-                    "endTime": "19:30",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-07": {
-                "slotTimings": [
-                  {
-                    "startTime": "17:00",
-                    "endTime": "18:00",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-11": {
-                "slotTimings": [
-                  {
-                    "startTime": "18:30",
-                    "endTime": "19:30",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-14": {
-                "slotTimings": [
-                  {
-                    "startTime": "18:30",
-                    "endTime": "19:30",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-18": {
-                "slotTimings": [
-                  {
-                    "startTime": "17:00",
-                    "endTime": "18:00",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-21": {
-                "slotTimings": [
-                  {
-                    "startTime": "18:30",
-                    "endTime": "19:30",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-25": {
-                "slotTimings": [
-                  {
-                    "startTime": "17:00",
-                    "endTime": "18:00",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              },
-              "2021-08-28": {
-                "slotTimings": [
-                  {
-                    "startTime": "18:30",
-                    "endTime": "19:30",
-                    "duration": 60,
-                    "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
-                  }
-                ]
-              }
-            }
+            "title": "Kriyas",
+            "time": "10 mins"
+          },
+          {
+            "title": "Surya Namaskar",
+            "time": "10 mins"
+          },
+          {
+            "title": "Main Asanas",
+            "time": "25 mins"
+          },
+          {
+            "title": "Pranayama & Shavasana",
+            "time": "15 mins"
           }
-        ]
-      },
+        ],
+        "product_benefits": [
+          "-Increases breath awareness.",
+          "-Will help achieve physical, mental & spiritual discipline.",
+          "-Strengthens core & muscles.",
+          "-Helps in healthy & organic weight loss.",
+          "-Improves concentration and focus."
+        ],
+        "slots": {
+          "2021-07-17": {
+            "slotTimings": [
+              {
+                "startTime": "17:00",
+                "endTime": "18:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+              }
+            ]
+          },
+          "2021-07-21": {
+            "slotTimings": [
+              {
+                "startTime": "18:30",
+                "endTime": "19:30",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+              }
+            ]
+          },
+          "2021-07-24": {
+            "slotTimings": [
+              {
+                "startTime": "17:00",
+                "endTime": "18:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+              }
+            ]
+          },
+          "2021-07-28": {
+            "slotTimings": [
+              {
+                "startTime": "18:30",
+                "endTime": "19:30",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+              }
+            ]
+          },
+          "2021-07-31": {
+            "slotTimings": [
+              {
+                "startTime": "17:00",
+                "endTime": "18:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+              }
+            ]
+          },
+          "2021-08-04": {
+            "slotTimings": [
+              {
+                "startTime": "18:30",
+                "endTime": "19:30",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+              }
+            ]
+          },
+          "2021-08-07": {
+            "slotTimings": [
+              {
+                "startTime": "17:00",
+                "endTime": "18:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+              }
+            ]
+          },
+          "2021-08-11": {
+            "slotTimings": [
+              {
+                "startTime": "18:30",
+                "endTime": "19:30",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+              }
+            ]
+          },
+          "2021-08-14": {
+            "slotTimings": [
+              {
+                "startTime": "18:30",
+                "endTime": "19:30",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+              }
+            ]
+          },
+          "2021-08-18": {
+            "slotTimings": [
+              {
+                "startTime": "17:00",
+                "endTime": "18:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+              }
+            ]
+          },
+          "2021-08-21": {
+            "slotTimings": [
+              {
+                "startTime": "18:30",
+                "endTime": "19:30",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+              }
+            ]
+          },
+          "2021-08-25": {
+            "slotTimings": [
+              {
+                "startTime": "17:00",
+                "endTime": "18:00",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+              }
+            ]
+          },
+          "2021-08-28": {
+            "slotTimings": [
+              {
+                "startTime": "18:30",
+                "endTime": "19:30",
+                "duration": 60,
+                "link": "https://www.khelomore.com/sports-academies/r-s-yoga-school-online/6f34c9aa-c109-4cae-988d-032bee7aaf72/2966/book"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
   {
     "product_category": "Material Arts",
     "product_category_name": "Martial Arts",
@@ -2150,8 +3469,6 @@
       }
     ]
   },
-  
-  
   {
     "product_category": "Chess",
     "product_category_name": "Chess",
@@ -2202,200 +3519,8 @@
           "-Raises IQ Level",
           "-Promotes Brain Growth."
         ],
-        "slots":{
-
-        "2021-07-19": {
-          "slotTimings": [
-            {
-              "startTime": "8:00",
-              "endTime": "9:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1704/book"
-            },
-            {
-              "startTime": "20:00",
-              "endTime": "21:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1990/book"
-            }
-          ]
-        },
-        "2021-07-20": {
-          "slotTimings": [
-            {
-              "startTime": "9:00",
-              "endTime": "10:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3041/book"
-            },
-            {
-              "startTime": "19:00",
-              "endTime": "20:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3042/book"
-            }
-          ]
-        },
-        "2021-07-21": {
-          "slotTimings": [
-            {
-              "startTime": "10:00",
-              "endTime": "11:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1991/book"
-            },
-            {
-              "startTime": "19:00",
-              "endTime": "20:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1992/book"
-            }
-          ]
-        },
-        "2021-07-23": {
-          "slotTimings": [
-            {
-              "startTime": "08:00",
-              "endTime": "09:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1993/book"
-            },
-            {
-              "startTime": "19:00",
-              "endTime": "20:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1995/book"
-            }
-          ]
-        },
-        "2021-07-24": {
-          "slotTimings": [
-            {
-              "startTime": "10:00",
-              "endTime": "11:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1994/book"
-            },
-            {
-              "startTime": "19:00",
-              "endTime": "20:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1996/book"
-            }
-          ]
-        },
-        "2021-07-25": {
-          "slotTimings": [
-            {
-              "startTime": "8:00",
-              "endTime": "9:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1997/book"
-            },
-            {
-              "startTime": "20:00",
-              "endTime": "21:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1798/book"
-            }
-          ]
-        },
-        "2021-07-26": {
-          "slotTimings": [
-            {
-              "startTime": "8:00",
-              "endTime": "9:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1704/book"
-            },
-            {
-              "startTime": "20:00",
-              "endTime": "21:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1990/book"
-            }
-          ]
-        },
-        "2021-07-27": {
-          "slotTimings": [
-            {
-              "startTime": "9:00",
-              "endTime": "10:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3041/book"
-            },
-            {
-              "startTime": "19:00",
-              "endTime": "20:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3042/book"
-            }
-          ]
-        },
-        "2021-07-28": {
-          "slotTimings": [
-            {
-              "startTime": "10:00",
-              "endTime": "11:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1991/book"
-            },
-            {
-              "startTime": "19:00",
-              "endTime": "20:00",
-              "duration": 60,
-              "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1992/book"
-            }
-          ],
-          "2021-07-30": {
-            "slotTimings": [
-              {
-                "startTime": "08:00",
-                "endTime": "09:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1993/book"
-              },
-              {
-                "startTime": "19:00",
-                "endTime": "20:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1995/book"
-              }
-            ]
-          },
-          "2021-07-31": {
-            "slotTimings": [
-              {
-                "startTime": "10:00",
-                "endTime": "11:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1994/book"
-              },
-              {
-                "startTime": "19:00",
-                "endTime": "20:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1996/book"
-              }
-            ]
-          },
-          "2021-08-01": {
-            "slotTimings": [
-              {
-                "startTime": "8:00",
-                "endTime": "9:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1997/book"
-              },
-              {
-                "startTime": "20:00",
-                "endTime": "21:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1798/book"
-              }
-            ]
-          },
-          "2021-08-02": {
+        "slots": {
+          "2021-07-19": {
             "slotTimings": [
               {
                 "startTime": "8:00",
@@ -2411,7 +3536,7 @@
               }
             ]
           },
-          "2021-08-03": {
+          "2021-07-20": {
             "slotTimings": [
               {
                 "startTime": "9:00",
@@ -2427,7 +3552,7 @@
               }
             ]
           },
-          "2021-08-05": {
+          "2021-07-21": {
             "slotTimings": [
               {
                 "startTime": "10:00",
@@ -2443,7 +3568,7 @@
               }
             ]
           },
-          "2021-08-06": {
+          "2021-07-23": {
             "slotTimings": [
               {
                 "startTime": "08:00",
@@ -2459,7 +3584,7 @@
               }
             ]
           },
-          "2021-08-07": {
+          "2021-07-24": {
             "slotTimings": [
               {
                 "startTime": "10:00",
@@ -2475,7 +3600,7 @@
               }
             ]
           },
-          "2021-08-08": {
+          "2021-07-25": {
             "slotTimings": [
               {
                 "startTime": "8:00",
@@ -2491,7 +3616,7 @@
               }
             ]
           },
-          "2021-08-09": {
+          "2021-07-26": {
             "slotTimings": [
               {
                 "startTime": "8:00",
@@ -2507,7 +3632,7 @@
               }
             ]
           },
-          "2021-08-10": {
+          "2021-07-27": {
             "slotTimings": [
               {
                 "startTime": "9:00",
@@ -2523,7 +3648,7 @@
               }
             ]
           },
-          "2021-08-11": {
+          "2021-07-28": {
             "slotTimings": [
               {
                 "startTime": "10:00",
@@ -2537,281 +3662,472 @@
                 "duration": 60,
                 "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1992/book"
               }
-            ]
-          },
-          "2021-08-13": {
-            "slotTimings": [
-              {
-                "startTime": "08:00",
-                "endTime": "09:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1993/book"
-              },
-              {
-                "startTime": "19:00",
-                "endTime": "20:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1995/book"
-              }
-            ]
-          },
-          "2021-08-14": {
-            "slotTimings": [
-              {
-                "startTime": "10:00",
-                "endTime": "11:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1994/book"
-              },
-              {
-                "startTime": "19:00",
-                "endTime": "20:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1996/book"
-              }
-            ]
-          },
-          "2021-08-15": {
-            "slotTimings": [
-              {
-                "startTime": "8:00",
-                "endTime": "9:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1997/book"
-              },
-              {
-                "startTime": "20:00",
-                "endTime": "21:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1798/book"
-              }
-            ]
-          },
-          "2021-08-16": {
-            "slotTimings": [
-              {
-                "startTime": "8:00",
-                "endTime": "9:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1997/book"
-              },
-              {
-                "startTime": "20:00",
-                "endTime": "21:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1798/book"
-              }
-            ]
-          },
-          "2021-08-17": {
-            "slotTimings": [
-              {
-                "startTime": "8:00",
-                "endTime": "9:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1704/book"
-              },
-              {
-                "startTime": "20:00",
-                "endTime": "21:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1990/book"
-              }
-            ]
-          },
-          "2021-08-18": {
-            "slotTimings": [
-              {
-                "startTime": "9:00",
-                "endTime": "10:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3041/book"
-              },
-              {
-                "startTime": "19:00",
-                "endTime": "20:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3042/book"
-              }
-            ]
-          },
-          "2021-08-20": {
-            "slotTimings": [
-              {
-                "startTime": "10:00",
-                "endTime": "11:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1991/book"
-              },
-              {
-                "startTime": "19:00",
-                "endTime": "20:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1992/book"
-              }
-            ]
-          },
-          "2021-08-21": {
-            "slotTimings": [
-              {
-                "startTime": "08:00",
-                "endTime": "09:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1993/book"
-              },
-              {
-                "startTime": "19:00",
-                "endTime": "20:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1995/book"
-              }
-            ]
-          },
-          "2021-08-22": {
-            "slotTimings": [
-              {
-                "startTime": "10:00",
-                "endTime": "11:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1994/book"
-              },
-              {
-                "startTime": "19:00",
-                "endTime": "20:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1996/book"
-              }
-            ]
-          },
-          "2021-08-23": {
-            "slotTimings": [
-              {
-                "startTime": "8:00",
-                "endTime": "9:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1997/book"
-              },
-              {
-                "startTime": "20:00",
-                "endTime": "21:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1798/book"
-              }
-            ]
-          },
-          "2021-08-24": {
-            "slotTimings": [
-              {
-                "startTime": "8:00",
-                "endTime": "9:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1704/book"
-              },
-              {
-                "startTime": "20:00",
-                "endTime": "21:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1990/book"
-              }
-            ]
-          },
-          "2021-08-25": {
-            "slotTimings": [
-              {
-                "startTime": "9:00",
-                "endTime": "10:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3041/book"
-              },
-              {
-                "startTime": "19:00",
-                "endTime": "20:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3042/book"
-              }
-            ]
-          },
-          "2021-08-27": {
-            "slotTimings": [
-              {
-                "startTime": "10:00",
-                "endTime": "11:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1991/book"
-              },
-              {
-                "startTime": "19:00",
-                "endTime": "20:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1992/book"
-              }
-            ]
-          },
-          "2021-08-28": {
-            "slotTimings": [
-              {
-                "startTime": "08:00",
-                "endTime": "09:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1993/book"
-              },
-              {
-                "startTime": "19:00",
-                "endTime": "20:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1995/book"
-              }
-            ]
-          },
-          "2021-08-29": {
-            "slotTimings": [
-              {
-                "startTime": "10:00",
-                "endTime": "11:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1994/book"
-              },
-              {
-                "startTime": "19:00",
-                "endTime": "20:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1996/book"
-              }
-            ]
-          },
-          "2021-08-30": {
-            "slotTimings": [
-              {
-                "startTime": "8:00",
-                "endTime": "9:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1997/book"
-              },
-              {
-                "startTime": "20:00",
-                "endTime": "21:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1798/book"
-              }
-            ]
-          },
-          "2021-08-31": {
-            "slotTimings": [
-              {
-                "startTime": "8:00",
-                "endTime": "9:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1997/book"
-              },
-              {
-                "startTime": "20:00",
-                "endTime": "21:00",
-                "duration": 60,
-                "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1798/book"
-              }
-            ]
+            ],
+            "2021-07-30": {
+              "slotTimings": [
+                {
+                  "startTime": "08:00",
+                  "endTime": "09:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1993/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1995/book"
+                }
+              ]
+            },
+            "2021-07-31": {
+              "slotTimings": [
+                {
+                  "startTime": "10:00",
+                  "endTime": "11:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1994/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1996/book"
+                }
+              ]
+            },
+            "2021-08-01": {
+              "slotTimings": [
+                {
+                  "startTime": "8:00",
+                  "endTime": "9:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1997/book"
+                },
+                {
+                  "startTime": "20:00",
+                  "endTime": "21:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1798/book"
+                }
+              ]
+            },
+            "2021-08-02": {
+              "slotTimings": [
+                {
+                  "startTime": "8:00",
+                  "endTime": "9:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1704/book"
+                },
+                {
+                  "startTime": "20:00",
+                  "endTime": "21:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1990/book"
+                }
+              ]
+            },
+            "2021-08-03": {
+              "slotTimings": [
+                {
+                  "startTime": "9:00",
+                  "endTime": "10:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3041/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3042/book"
+                }
+              ]
+            },
+            "2021-08-05": {
+              "slotTimings": [
+                {
+                  "startTime": "10:00",
+                  "endTime": "11:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1991/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1992/book"
+                }
+              ]
+            },
+            "2021-08-06": {
+              "slotTimings": [
+                {
+                  "startTime": "08:00",
+                  "endTime": "09:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1993/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1995/book"
+                }
+              ]
+            },
+            "2021-08-07": {
+              "slotTimings": [
+                {
+                  "startTime": "10:00",
+                  "endTime": "11:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1994/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1996/book"
+                }
+              ]
+            },
+            "2021-08-08": {
+              "slotTimings": [
+                {
+                  "startTime": "8:00",
+                  "endTime": "9:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1997/book"
+                },
+                {
+                  "startTime": "20:00",
+                  "endTime": "21:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1798/book"
+                }
+              ]
+            },
+            "2021-08-09": {
+              "slotTimings": [
+                {
+                  "startTime": "8:00",
+                  "endTime": "9:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1704/book"
+                },
+                {
+                  "startTime": "20:00",
+                  "endTime": "21:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1990/book"
+                }
+              ]
+            },
+            "2021-08-10": {
+              "slotTimings": [
+                {
+                  "startTime": "9:00",
+                  "endTime": "10:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3041/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3042/book"
+                }
+              ]
+            },
+            "2021-08-11": {
+              "slotTimings": [
+                {
+                  "startTime": "10:00",
+                  "endTime": "11:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1991/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1992/book"
+                }
+              ]
+            },
+            "2021-08-13": {
+              "slotTimings": [
+                {
+                  "startTime": "08:00",
+                  "endTime": "09:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1993/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1995/book"
+                }
+              ]
+            },
+            "2021-08-14": {
+              "slotTimings": [
+                {
+                  "startTime": "10:00",
+                  "endTime": "11:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1994/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1996/book"
+                }
+              ]
+            },
+            "2021-08-15": {
+              "slotTimings": [
+                {
+                  "startTime": "8:00",
+                  "endTime": "9:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1997/book"
+                },
+                {
+                  "startTime": "20:00",
+                  "endTime": "21:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1798/book"
+                }
+              ]
+            },
+            "2021-08-16": {
+              "slotTimings": [
+                {
+                  "startTime": "8:00",
+                  "endTime": "9:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1997/book"
+                },
+                {
+                  "startTime": "20:00",
+                  "endTime": "21:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1798/book"
+                }
+              ]
+            },
+            "2021-08-17": {
+              "slotTimings": [
+                {
+                  "startTime": "8:00",
+                  "endTime": "9:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1704/book"
+                },
+                {
+                  "startTime": "20:00",
+                  "endTime": "21:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1990/book"
+                }
+              ]
+            },
+            "2021-08-18": {
+              "slotTimings": [
+                {
+                  "startTime": "9:00",
+                  "endTime": "10:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3041/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3042/book"
+                }
+              ]
+            },
+            "2021-08-20": {
+              "slotTimings": [
+                {
+                  "startTime": "10:00",
+                  "endTime": "11:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1991/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1992/book"
+                }
+              ]
+            },
+            "2021-08-21": {
+              "slotTimings": [
+                {
+                  "startTime": "08:00",
+                  "endTime": "09:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1993/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1995/book"
+                }
+              ]
+            },
+            "2021-08-22": {
+              "slotTimings": [
+                {
+                  "startTime": "10:00",
+                  "endTime": "11:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1994/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1996/book"
+                }
+              ]
+            },
+            "2021-08-23": {
+              "slotTimings": [
+                {
+                  "startTime": "8:00",
+                  "endTime": "9:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1997/book"
+                },
+                {
+                  "startTime": "20:00",
+                  "endTime": "21:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1798/book"
+                }
+              ]
+            },
+            "2021-08-24": {
+              "slotTimings": [
+                {
+                  "startTime": "8:00",
+                  "endTime": "9:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1704/book"
+                },
+                {
+                  "startTime": "20:00",
+                  "endTime": "21:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1990/book"
+                }
+              ]
+            },
+            "2021-08-25": {
+              "slotTimings": [
+                {
+                  "startTime": "9:00",
+                  "endTime": "10:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3041/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/3042/book"
+                }
+              ]
+            },
+            "2021-08-27": {
+              "slotTimings": [
+                {
+                  "startTime": "10:00",
+                  "endTime": "11:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1991/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1992/book"
+                }
+              ]
+            },
+            "2021-08-28": {
+              "slotTimings": [
+                {
+                  "startTime": "08:00",
+                  "endTime": "09:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1993/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1995/book"
+                }
+              ]
+            },
+            "2021-08-29": {
+              "slotTimings": [
+                {
+                  "startTime": "10:00",
+                  "endTime": "11:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1994/book"
+                },
+                {
+                  "startTime": "19:00",
+                  "endTime": "20:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1996/book"
+                }
+              ]
+            },
+            "2021-08-30": {
+              "slotTimings": [
+                {
+                  "startTime": "8:00",
+                  "endTime": "9:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1997/book"
+                },
+                {
+                  "startTime": "20:00",
+                  "endTime": "21:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1798/book"
+                }
+              ]
+            },
+            "2021-08-31": {
+              "slotTimings": [
+                {
+                  "startTime": "8:00",
+                  "endTime": "9:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1997/book"
+                },
+                {
+                  "startTime": "20:00",
+                  "endTime": "21:00",
+                  "duration": 60,
+                  "link": "https://www.khelomore.com/sports-academies/checkmate-chess-academy-online-chess-classes/20dba15c-85ff-4c0b-bd95-6ff3c24b1418/1798/book"
+                }
+              ]
+            }
           }
-        }
         }
       }
     ]
