@@ -41,7 +41,6 @@ export const App = () => {
         fetch(url)
             .then((data) => data.json())
             .then((response) => {
-                debugger
                 setCategories(getAllCategories(response));
                 setProducts(response);
                 setLoading(false);
