@@ -7,7 +7,7 @@ import { routes } from './router';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/pages/learn-per-session/">
       <Switch>
         {
           routes.map((route)=> {
