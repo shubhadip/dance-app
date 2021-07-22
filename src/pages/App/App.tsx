@@ -36,8 +36,10 @@ export const App = () => {
     useEffect(() => {
         localStorage.removeItem("selectedBatch");
         const domain = process.env.NODE_ENV !== 'production' ? 'http://localhost:3000' : 'https://khelomore.com';
-        const url = `${domain}${process.env.PUBLIC_URL}/products.json`
-        console.log(url);
+        let url = `${domain}${process.env.PUBLIC_URL}/products.json`
+        if(process.env.REACT_APP_ENV === 'heroku'){
+            url = `https://activities-react-app.herokuapp.com${process.env.PUBLIC_URL}/products.json`
+        }
         fetch(url)
             .then((data) => data.json())
             .then((response) => {

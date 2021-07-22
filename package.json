@@ -16,10 +16,11 @@
   },
   "scripts": {
     "dev": "craco start",
-    "build": "craco build",
+    "build": "craco build REACT_APP_ENV='heroku'",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "start": "node server.js"
+    "start": "node server.js",
+    "release": "craco build"
   },
   "eslintConfig": {
     "extends": [
