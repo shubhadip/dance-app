@@ -19,10 +19,11 @@ const Plancard = (props: IPlanProps) => {
 						className="object-fill w-full"
 						alt={props.product_name}
 					/>
+					
 					<div className=" absolute left-0 top-0 w-full p-3 flex justify-between">
-						<span className="py-1 px-2 items-center font-medium bg-red text-white uppercase text-xs rounded flex justify-center">
-							<img src={hot} alt="hot" className="mr-1" />
-							<span className="font-bold capitalize">{props?.product_tag}</span>
+						<span className={["py-1 px-2 items-center font-medium text-white uppercase text-xs rounded flex justify-center", (props.product_tag ? 'bg-red': ' ')].join(' ')}>
+							{ props?.product_tag ? <><img src={hot} alt="hot" className="mr-1" />
+							<span className="font-bold capitalize">{props?.product_tag}</span> </>: null}
 						</span>
 						<span className="py-1 font-bold px-2 bg-orange text-white uppercase text-xs rounded">
 							{props.enrolled_qty} Enrolled

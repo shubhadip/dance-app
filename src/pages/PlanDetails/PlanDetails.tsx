@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import leftArrow from "./../../assets/images/arrow.svg";
-import yoga from "./../../assets/images/yoga-white.svg";
 import shareIcon from "./../../assets/images/share.svg";
 import cameraIcon from "./../../assets/images/video.svg";
 import mailIcon from "./../../assets/images/mail.svg";

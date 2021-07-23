@@ -100,16 +100,13 @@ export const App = () => {
     const handleCategoryChange = (data: any) => {
         setCategory(data);
         setSlot(null);
-        if (data) {
+        if (!data) {
             setDate({
                 value: format(activeHour >=20 ? addDays(new Date(), 1) : new Date(), yyyyMMdd),
                 label: format(activeHour >=20 ? addDays(new Date(), 1) : new Date(), yyyyMMdd),
             })
         }else{
-            setDate({
-                value: format(new Date(), yyyyMMdd),
-                label: format(new Date(), yyyyMMdd),
-            })
+            setDate(null)
         }
     };
 
