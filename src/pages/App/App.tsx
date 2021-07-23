@@ -101,7 +101,10 @@ export const App = () => {
         setCategory(data);
         setSlot(null);
         if (data) {
-            setDate(null);
+            setDate({
+                value: format(activeHour >=20 ? addDays(new Date(), 1) : new Date(), yyyyMMdd),
+                label: format(activeHour >=20 ? addDays(new Date(), 1) : new Date(), yyyyMMdd),
+            })
         }else{
             setDate({
                 value: format(new Date(), yyyyMMdd),
