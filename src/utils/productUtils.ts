@@ -3,7 +3,7 @@ import { timeSlotMapping } from "./constants"
 
 export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: any, selectedCategory: any, selectedSort: any) => {
   let prod: any = [];
-
+  try{
   if (selectedCategory) {
     const category = data.filter((catItem: any) => catItem.product_category === selectedCategory.category);
     prod = category[0].products;
@@ -43,8 +43,8 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
         const slotLength = (timeSlotMapping as any)[selectedSlot?.value]
         const minslotTime = slotLength ? (timeSlotMapping as any)[selectedSlot?.value][0]: null
         const maxslotTime = slotLength ? (timeSlotMapping as any)[selectedSlot?.value][slotLength.length-1]: null
-        const minSlotTimeStamp = minslotTime ? new Date(`${tempDate} ${minslotTime}:00:00`).getTime(): null
-        const maxSlotTimeStamp = maxslotTime ? new Date(`${tempDate} ${maxslotTime}:00:00`).getTime(): null
+        const minSlotTimeStamp = minslotTime ? new Date(`${tempDate}T${minslotTime}:00:00Z`).getTime(): null
+        const maxSlotTimeStamp = maxslotTime ? new Date(`${tempDate}T${maxslotTime}:00:00Z`).getTime(): null
         
         if(temp){
           const massageddata = temp.map((t: any) => {
@@ -52,9 +52,9 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
             const hr = `0${startTime[0]}`.slice(-2)
             const min = `0${startTime[1]}`.slice(-2)
             const endHr = t.endTime.split(':')[0]
-            const startTimeStamp = new Date(`${tempDate} ${hr}:${min}:00`).getTime()
+            const startTimeStamp = new Date(`${tempDate}T${hr}:${min}:00`).getTime()
             const slotText = `${t.startTime} ${Number(hr) > 12 && Number(hr) < 24 ? 'PM' :'AM'} - ${t.endTime} ${Number(endHr) > 12 && Number(endHr) < 24 ? 'PM' :'AM'}`
-            const currentTimestamp = new Date(`${tempDate} ${isToday(new Date(tempDate)) ? (new Date()).getHours() : '00'}:00:00`).getTime()
+            const currentTimestamp = new Date(`${tempDate}${isToday(new Date(tempDate)) ? `T${`0${new Date().getHours()}`.slice(-2)}` : 'T00'}:00:00Z`).getTime()
             return {
               ...t,
               date: format(new Date(tempDate), 'd LLL'),
@@ -80,9 +80,9 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
           const hr = `0${startTime[0]}`.slice(-2)
           const min = `0${startTime[1]}`.slice(-2)
           const endHr = t.endTime.split(':')[0]
-          const startTimeStamp = new Date(`${selectedDate.value} ${hr}:${min}:00`).getTime()
+          const startTimeStamp = new Date(`${selectedDate.value}T${hr}:${min}:00Z`).getTime()
           const slotText = `${t.startTime} ${Number(hr) > 12 && Number(hr) < 24 ? 'PM' :'AM'} - ${t.endTime} ${Number(endHr) > 12 && Number(endHr) < 24 ? 'PM' :'AM'}`
-          const currentTimestamp = new Date(`${selectedDate.value} ${isToday(new Date(selectedDate.value)) ? (new Date()).getHours() : '00'}:00:00`).getTime()
+          const currentTimestamp = new Date(`${selectedDate.value}${isToday(new Date(selectedDate.value)) ? `T${`0${new Date().getHours()}`.slice(-2)}` : 'T00'}:00:00Z`).getTime()
           return {
             ...t,
             date: format(new Date(selectedDate.value), 'd LLL'),
@@ -99,8 +99,8 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
     const slotLength = (timeSlotMapping as any)[selectedSlot?.value]
     const minslotTime = (timeSlotMapping as any)[selectedSlot?.value][0]
     const maxslotTime = (timeSlotMapping as any)[selectedSlot?.value][slotLength.length-1]
-    const minSlotTimeStamp = new Date(`${selectedDate.value} ${minslotTime}:00:00`).getTime()
-    const maxSlotTimeStamp = new Date(`${selectedDate.value} ${maxslotTime}:00:00`).getTime()
+    const minSlotTimeStamp = new Date(`${selectedDate.value}T${minslotTime}:00:00Z`).getTime()
+    const maxSlotTimeStamp = new Date(`${selectedDate.value}T${maxslotTime}:00:00Z`).getTime()
     
     prod.forEach((p: any)=>{
       p.selectedBatch = null;
@@ -110,7 +110,7 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
           const startTime = t.startTime.split(':')
           const hr = `0${startTime[0]}`.slice(-2)
           const min = `0${startTime[1]}`.slice(-2)
-          const startTimeStamp = new Date(`${selectedDate.value} ${hr}:${min}:00`).getTime()
+          const startTimeStamp = new Date(`${selectedDate.value}T${hr}:${min}:00Z`).getTime()
           const slotText = `${t.startTime} - ${t.endTime}`
           if(isToday(new Date(selectedDate.value))){
             return {
@@ -148,6 +148,9 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
       }
     })
   }
+}catch(e){
+  console.log(e)
+}
   return prod;
 }
 
