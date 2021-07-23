@@ -43,7 +43,7 @@ export function PlanDetails(props: any) {
     return (
         <>
             <div className="pb-14 appearme">
-                <div className="relative bg-gray-200 h-48 overflow-hidden">
+                <div className="relative bg-gray-200 h-40 overflow-hidden">
                     {selectedProduct?.product_image_url ? <img
                         src={selectedProduct?.product_image_url}
                         className="object-fill w-full"
