@@ -1,4 +1,4 @@
-import { addDays, format, isToday, subDays } from "date-fns";
+import { addDays, addHours, format, isToday, subDays } from "date-fns";
 import { timeSlotMapping } from "./constants"
 
 export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: any, selectedCategory: any, selectedSort: any) => {
@@ -100,7 +100,7 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
     const slotLength = (timeSlotMapping as any)[selectedSlot?.value]
     const minslotTime = (timeSlotMapping as any)[selectedSlot?.value][0]
     const maxslotTime = (timeSlotMapping as any)[selectedSlot?.value][slotLength.length-1]
-    const minSlotTimeStamp = new Date(`${selectedDate.value}T${minslotTime}:00:00Z`).getTime()
+    const minSlotTimeStamp = isToday(selectedDate.value) ? (addHours(new Date(`${selectedDate.value}T${minslotTime}:00:00Z`),2).getTime()) : new Date(`${selectedDate.value}T${minslotTime}:00:00Z`).getTime()
     const maxSlotTimeStamp = new Date(`${selectedDate.value}T${maxslotTime}:00:00Z`).getTime()
     
     prod.forEach((p: any)=>{
