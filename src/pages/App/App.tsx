@@ -26,8 +26,8 @@ export const App = () => {
     const [filteredProducts, setFilteredProducts] = useState([]);
     const [isLoading, setLoading] = useState(true);
     const [selectedDate, setDate] = useState<any>({
-        value: format(activeHour >=20 ? addDays(new Date(), 1) : new Date(), yyyyMMdd),
-        label: format(activeHour >=20 ? addDays(new Date(), 1) : new Date(), yyyyMMdd), 
+        value: format(activeHour >=18 ? addDays(new Date(), 1) : new Date(), yyyyMMdd),
+        label: format(activeHour >=18 ? addDays(new Date(), 1) : new Date(), yyyyMMdd), 
     });
     const [selectedSlot, setSlot] = useState(null);
     const [selectedSort, setSort] = useState(null);
@@ -102,8 +102,8 @@ export const App = () => {
         setSlot(null);
         if (!data) {
             setDate({
-                value: format(activeHour >=20 ? addDays(new Date(), 1) : new Date(), yyyyMMdd),
-                label: format(activeHour >=20 ? addDays(new Date(), 1) : new Date(), yyyyMMdd),
+                value: format(activeHour >=18 ? addDays(new Date(), 1) : new Date(), yyyyMMdd),
+                label: format(activeHour >=18 ? addDays(new Date(), 1) : new Date(), yyyyMMdd),
             })
         }else{
             setDate(null)
