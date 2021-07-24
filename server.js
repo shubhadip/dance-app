@@ -3,7 +3,7 @@ var express = require('express');
 
 var app = express();
 
-app.use('*',express.static(path.join(__dirname, 'build')));
+app.use('/pages/learn-per-session',express.static(path.join(__dirname, 'build')));
 app.use('/pages/learn-per-session/plandetails/:id',express.static(path.join(__dirname, 'build')));
 app.set('port', process.env.PORT || 8080);
 
