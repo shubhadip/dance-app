@@ -82,7 +82,8 @@ export const getFilteredProducts = (data: any, selectedSlot: any, selectedDate: 
           const endHr = t.endTime.split(':')[0]
           const startTimeStamp = new Date(`${selectedDate.value}T${hr}:${min}:00Z`).getTime()
           const slotText = `${t.startTime} ${Number(hr) > 12 && Number(hr) < 24 ? 'PM' :'AM'} - ${t.endTime} ${Number(endHr) > 12 && Number(endHr) < 24 ? 'PM' :'AM'}`
-          const currentTimestamp = new Date(`${selectedDate.value}${isToday(new Date(selectedDate.value)) ? `T${`0${new Date().getHours()}`.slice(-2)}` : 'T00'}:00:00Z`).getTime()
+          const offset = (new Date().getHours()) + 2 > 24 ? (new Date().getHours()) + 2 : new Date().getHours()
+          const currentTimestamp = new Date(`${selectedDate.value}${isToday(new Date(selectedDate.value)) ? `T${`0${offset}`.slice(-2)}` : 'T00'}:00:00Z`).getTime()
           return {
             ...t,
             date: format(new Date(selectedDate.value), 'd LLL'),
